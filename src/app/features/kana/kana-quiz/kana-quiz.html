@@ -1,0 +1,48 @@
+<div style="max-width: 720px; margin: 24px auto; padding: 0 12px;">
+  <div style="display:flex; justify-content:space-between; align-items:center; gap: 12px;">
+    <a routerLink="/">← Home</a>
+    <div>{{ script === 'hira' ? 'Hiragana' : 'Katakana' }}</div>
+  </div>
+
+  <hr />
+
+  <div *ngIf="errorMsg" style="margin:12px 0; padding:12px; border:1px solid #c00;">
+    {{ errorMsg }}
+  </div>
+
+  <ng-container *ngIf="question as q">
+    <div style="margin: 18px 0; text-align:center;">
+      <div style="font-size: 64px; line-height: 1.1;">{{ q.prompt }}</div>
+    </div>
+
+    <div style="display:grid; gap: 10px;">
+      <button
+        *ngFor="let c of q.choices; let i = index"
+        (click)="choose(i)"
+        [disabled]="feedback.status !== 'idle'"
+        [ngClass]="{
+          'choice': true,
+          'is-correct': (feedback.status === 'correct' && i === q.correctIndex) || (feedback.status === 'wrong' && i === q.correctIndex),
+          'is-wrong': feedback.status === 'wrong' && i === feedback.chosenIndex
+        }"
+        style="padding: 14px; text-align:center;"
+      >
+        {{ c }}
+      </button>
+    </div>
+
+    <div style="margin-top: 16px; text-align:center;">
+      <div *ngIf="feedback.status === 'correct'" style="font-weight: 600;">
+        Corretto.
+      </div>
+
+      <div *ngIf="feedback.status === 'wrong'" style="font-weight: 600;">
+        Sbagliato. Risposta corretta: {{ q.choices[q.correctIndex] }}
+      </div>
+
+      <div style="margin-top: 12px; display:flex; gap: 10px; justify-content:center;">
+        <button (click)="nextQuestion()" [disabled]="!canGoNext">Avanti</button>
+      </div>
+    </div>
+  </ng-container>
+</div>

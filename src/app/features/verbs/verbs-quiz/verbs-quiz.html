@@ -1,0 +1,64 @@
+<div style="max-width: 720px; margin: 24px auto; padding: 0 12px;">
+  <div style="display:flex; justify-content:space-between; align-items:center; gap: 12px;">
+    <a routerLink="/">← Home</a>
+    <div>{{ mode === 'meaning' ? 'Verbi – significato' : 'Verbi – coniugazione' }}</div>
+  </div>
+
+  <hr />
+
+  <div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+    <p-multiSelect
+      [options]="lessonOptions"
+      [(ngModel)]="selectedLessons"
+      (onChange)="applyFilters()"
+      placeholder="Seleziona lezioni"
+      display="chip"
+      optionLabel="label"
+      optionValue="value"
+      style="min-width: 240px;"
+    ></p-multiSelect>
+  </div>
+
+  <div *ngIf="errorMsg" style="margin:12px 0; padding:12px; border:1px solid #c00;">
+    {{ errorMsg }}
+  </div>
+
+  <ng-container *ngIf="question as q">
+    <div style="margin: 18px 0; text-align: center;">
+      <div style="font-size: 28px; line-height: 1.1;">{{ q.prompt }}</div>
+      <div style="font-size: 18px; opacity: 0.75; margin-top: 6px;" *ngIf="q.reading">
+        {{ q.reading }}
+      </div>
+    </div>
+
+    <div style="display:grid; gap: 10px;">
+      <button
+        *ngFor="let c of q.choices; let i = index"
+        (click)="choose(i)"
+        [disabled]="feedback.status !== 'idle'"
+        [ngClass]="{
+          'choice': true,
+          'is-correct': (feedback.status === 'correct' && i === q.correctIndex) || (feedback.status === 'wrong' && i === q.correctIndex),
+          'is-wrong': feedback.status === 'wrong' && i === feedback.chosenIndex
+        }"
+        style="padding: 12px; text-align:left;"
+      >
+        {{ c }}
+      </button>
+    </div>
+
+    <div style="margin-top: 16px;">
+      <div *ngIf="feedback.status === 'correct'" style="font-weight: 600;">
+        Corretto.
+      </div>
+
+      <div *ngIf="feedback.status === 'wrong'" style="font-weight: 600;">
+        Sbagliato. Risposta corretta: {{ q.choices[q.correctIndex] }}
+      </div>
+
+      <div style="margin-top: 12px; display:flex; gap: 10px;">
+        <button (click)="nextQuestion()" [disabled]="!canGoNext">Avanti</button>
+      </div>
+    </div>
+  </ng-container>
+</div>

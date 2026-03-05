@@ -7,7 +7,8 @@ import { AdjectivesQuizComponent } from './features/adjectives/adjectives-quiz/a
 
 
 export const routes: Routes = [
-  { path: '', component: HomeComponent },
+  { path: '', redirectTo: 'quiz', pathMatch: 'full' },
+  { path: 'home', component: HomeComponent },
   { path: 'quiz', component: QuizComponent },
   { path: 'kana/hiragana', component: KanaQuizComponent, data: { script: 'hira' } },
   { path: 'kana/katakana', component: KanaQuizComponent, data: { script: 'kata' } },

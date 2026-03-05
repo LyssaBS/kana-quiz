@@ -1,0 +1,2501 @@
+[
+  {
+    "id": "adj_na_1508299952300",
+    "pos": "adjective-na",
+    "level": "N5",
+    "lesson": 8,
+    "headword": "ハンサム",
+    "reading": "ハンサム",
+    "meaningsIt": [
+      "bello / affascinante"
+    ],
+    "declension": {
+      "plain": "ハンサムだ",
+      "plainNeg": "ハンサムじゃない",
+      "plainPast": "ハンサムだった",
+      "plainPastNeg": "ハンサムじゃなかった",
+      "polite": "ハンサムです",
+      "politeNeg": "ハンサムじゃないです",
+      "politePast": "ハンサムでした",
+      "politePastNeg": "ハンサムじゃなかったです"
+    }
+  },
+  {
+    "id": "adj_na_1508299986801",
+    "pos": "adjective-na",
+    "level": "N5",
+    "lesson": 8,
+    "headword": "きれい",
+    "reading": "きれい",
+    "meaningsIt": [
+      "bello / pulito"
+    ],
+    "declension": {
+      "plain": "きれいだ",
+      "plainNeg": "きれいじゃない",
+      "plainPast": "きれいだった",
+      "plainPastNeg": "きれいじゃなかった",
+      "polite": "きれいです",
+      "politeNeg": "きれいじゃないです",
+      "politePast": "きれいでした",
+      "politePastNeg": "きれいじゃなかったです"
+    }
+  },
+  {
+    "id": "adj_na_1508300044084",
+    "pos": "adjective-na",
+    "level": "N5",
+    "lesson": 8,
+    "headword": "にぎやか",
+    "reading": "にぎやか",
+    "meaningsIt": [
+      "vivace"
+    ],
+    "declension": {
+      "plain": "にぎやかだ",
+      "plainNeg": "にぎやかじゃない",
+      "plainPast": "にぎやかだった",
+      "plainPastNeg": "にぎやかじゃなかった",
+      "polite": "にぎやかです",
+      "politeNeg": "にぎやかじゃないです",
+      "politePast": "にぎやかでした",
+      "politePastNeg": "にぎやかじゃなかったです"
+    }
+  },
+  {
+    "id": "adj_na_1508300067904",
+    "pos": "adjective-na",
+    "level": "N5",
+    "lesson": 8,
+    "headword": "有名",
+    "reading": "ゆうめい",
+    "meaningsIt": [
+      "famoso"
+    ],
+    "declension": {
+      "plain": "ゆうめいだ",
+      "plainNeg": "ゆうめいじゃない",
+      "plainPast": "ゆうめいだった",
+      "plainPastNeg": "ゆうめいじゃなかった",
+      "polite": "ゆうめいです",
+      "politeNeg": "ゆうめいじゃないです",
+      "politePast": "ゆうめいでした",
+      "politePastNeg": "ゆうめいじゃなかったです"
+    }
+  },
+  {
+    "id": "adj_na_1508300103151",
+    "pos": "adjective-na",
+    "level": "N5",
+    "lesson": 8,
+    "headword": "親切",
+    "reading": "しんせつ",
+    "meaningsIt": [
+      "gentile / disponibile / premuroso"
+    ],
+    "declension": {
+      "plain": "しんせつだ",
+      "plainNeg": "しんせつじゃない",
+      "plainPast": "しんせつだった",
+      "plainPastNeg": "しんせつじゃなかった",
+      "polite": "しんせつです",
+      "politeNeg": "しんせつじゃないです",
+      "politePast": "しんせつでした",
+      "politePastNeg": "しんせつじゃなかったです"
+    }
+  },
+  {
+    "id": "adj_na_1508300150595",
+    "pos": "adjective-na",
+    "level": "N5",
+    "lesson": 8,
+    "headword": "元気",
+    "reading": "げんき",
+    "meaningsIt": [
+      "in salute / energico / allegro"
+    ],
+    "declension": {
+      "plain": "げんきだ",
+      "plainNeg": "げんきじゃない",
+      "plainPast": "げんきだった",
+      "plainPastNeg": "げんきじゃなかった",
+      "polite": "げんきです",
+      "politeNeg": "げんきじゃないです",
+      "politePast": "げんきでした",
+      "politePastNeg": "げんきじゃなかったです"
+    }
+  },
+  {
+    "id": "adj_na_1508300210116",
+    "pos": "adjective-na",
+    "level": "N5",
+    "lesson": 8,
+    "headword": "暇",
+    "reading": "ひま",
+    "meaningsIt": [
+      "libero (tempo)"
+    ],
+    "declension": {
+      "plain": "ひまだ",
+      "plainNeg": "ひまじゃない",
+      "plainPast": "ひまだった",
+      "plainPastNeg": "ひまじゃなかった",
+      "polite": "ひまです",
+      "politeNeg": "ひまじゃないです",
+      "politePast": "ひまでした",
+      "politePastNeg": "ひまじゃなかったです"
+    }
+  },
+  {
+    "id": "adj_na_1508300247695",
+    "pos": "adjective-na",
+    "level": "N5",
+    "lesson": 8,
+    "headword": "便利",
+    "reading": "べんり",
+    "meaningsIt": [
+      "comodo / conveniente"
+    ],
+    "declension": {
+      "plain": "べんりだ",
+      "plainNeg": "べんりじゃない",
+      "plainPast": "べんりだった",
+      "plainPastNeg": "べんりじゃなかった",
+      "polite": "べんりです",
+      "politeNeg": "べんりじゃないです",
+      "politePast": "べんりでした",
+      "politePastNeg": "べんりじゃなかったです"
+    }
+  },
+  {
+    "id": "adj_na_1508300269662",
+    "pos": "adjective-na",
+    "level": "N5",
+    "lesson": 8,
+    "headword": "すてき",
+    "reading": "すてき",
+    "meaningsIt": [
+      "bello / splendido / meraviglioso"
+    ],
+    "declension": {
+      "plain": "すてきだ",
+      "plainNeg": "すてきじゃない",
+      "plainPast": "すてきだった",
+      "plainPastNeg": "すてきじゃなかった",
+      "polite": "すてきです",
+      "politeNeg": "すてきじゃないです",
+      "politePast": "すてきでした",
+      "politePastNeg": "すてきじゃなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1508300328755",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 8,
+    "headword": "小さい",
+    "reading": "ちいさい",
+    "meaningsIt": [
+      "piccolo"
+    ],
+    "declension": {
+      "plain": "ちいさい",
+      "plainNeg": "ちいさくない",
+      "plainPast": "ちいさかった",
+      "plainPastNeg": "ちいさくなかった",
+      "polite": "ちいさいです",
+      "politeNeg": "ちいさくないです",
+      "politePast": "ちいさかったです",
+      "politePastNeg": "ちいさくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1508300366301",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 8,
+    "headword": "新しい",
+    "reading": "あたらしい",
+    "meaningsIt": [
+      "nuovo / fresco"
+    ],
+    "declension": {
+      "plain": "あたらしい",
+      "plainNeg": "あたらしくない",
+      "plainPast": "あたらしかった",
+      "plainPastNeg": "あたらしくなかった",
+      "polite": "あたらしいです",
+      "politeNeg": "あたらしくないです",
+      "politePast": "あたらしかったです",
+      "politePastNeg": "あたらしくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1508300392574",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 8,
+    "headword": "古い",
+    "reading": "ふるい",
+    "meaningsIt": [
+      "vecchio"
+    ],
+    "declension": {
+      "plain": "ふるい",
+      "plainNeg": "ふるくない",
+      "plainPast": "ふるかった",
+      "plainPastNeg": "ふるくなかった",
+      "polite": "ふるいです",
+      "politeNeg": "ふるくないです",
+      "politePast": "ふるかったです",
+      "politePastNeg": "ふるくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1508300421181",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 8,
+    "headword": "いい",
+    "reading": "いい",
+    "meaningsIt": [
+      "buono"
+    ],
+    "declension": {
+      "plain": "いい",
+      "plainNeg": "よくない",
+      "plainPast": "よかった",
+      "plainPastNeg": "よくなかった",
+      "polite": "いいです",
+      "politeNeg": "よくないです",
+      "politePast": "よかったです",
+      "politePastNeg": "よくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1508300441221",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 8,
+    "headword": "悪い",
+    "reading": "わるい",
+    "meaningsIt": [
+      "cattivo"
+    ],
+    "declension": {
+      "plain": "わるい",
+      "plainNeg": "わるくない",
+      "plainPast": "わるかった",
+      "plainPastNeg": "わるくなかった",
+      "polite": "わるいです",
+      "politeNeg": "わるくないです",
+      "politePast": "わるかったです",
+      "politePastNeg": "わるくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1508300482269",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 8,
+    "headword": "寒い",
+    "reading": "さむい",
+    "meaningsIt": [
+      "freddo (temperatura)"
+    ],
+    "declension": {
+      "plain": "さむい",
+      "plainNeg": "さむくない",
+      "plainPast": "さむかった",
+      "plainPastNeg": "さむくなかった",
+      "polite": "さむいです",
+      "politeNeg": "さむくないです",
+      "politePast": "さむかったです",
+      "politePastNeg": "さむくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1508300503540",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 8,
+    "headword": "冷たい",
+    "reading": "つめたい",
+    "meaningsIt": [
+      "freddo (al tatto)"
+    ],
+    "declension": {
+      "plain": "つめたい",
+      "plainNeg": "つめたくない",
+      "plainPast": "つめたかった",
+      "plainPastNeg": "つめたくなかった",
+      "polite": "つめたいです",
+      "politeNeg": "つめたくないです",
+      "politePast": "つめたかったです",
+      "politePastNeg": "つめたくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1508300524820",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 8,
+    "headword": "難しい",
+    "reading": "むずかしい",
+    "meaningsIt": [
+      "difficile"
+    ],
+    "declension": {
+      "plain": "むずかしい",
+      "plainNeg": "むずかしくない",
+      "plainPast": "むずかしかった",
+      "plainPastNeg": "むずかしくなかった",
+      "polite": "むずかしいです",
+      "politeNeg": "むずかしくないです",
+      "politePast": "むずかしかったです",
+      "politePastNeg": "むずかしくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1508300550733",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 8,
+    "headword": "易しい",
+    "reading": "やさしい",
+    "meaningsIt": [
+      "gentile / dolce / affettuoso"
+    ],
+    "declension": {
+      "plain": "やさしい",
+      "plainNeg": "やさしくない",
+      "plainPast": "やさしかった",
+      "plainPastNeg": "やさしくなかった",
+      "polite": "やさしいです",
+      "politeNeg": "やさしくないです",
+      "politePast": "やさしかったです",
+      "politePastNeg": "やさしくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1508300585598",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 8,
+    "headword": "高い",
+    "reading": "たかい",
+    "meaningsIt": [
+      "costoso / alto"
+    ],
+    "declension": {
+      "plain": "たかい",
+      "plainNeg": "たかくない",
+      "plainPast": "たかかった",
+      "plainPastNeg": "たかくなかった",
+      "polite": "たかいです",
+      "politeNeg": "たかくないです",
+      "politePast": "たかかったです",
+      "politePastNeg": "たかくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1508300605863",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 8,
+    "headword": "安い",
+    "reading": "やすい",
+    "meaningsIt": [
+      "economico"
+    ],
+    "declension": {
+      "plain": "やすい",
+      "plainNeg": "やすくない",
+      "plainPast": "やすかった",
+      "plainPastNeg": "やすくなかった",
+      "polite": "やすいです",
+      "politeNeg": "やすくないです",
+      "politePast": "やすかったです",
+      "politePastNeg": "やすくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1508300638979",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 8,
+    "headword": "低い",
+    "reading": "ひくい",
+    "meaningsIt": [
+      "basso"
+    ],
+    "declension": {
+      "plain": "ひくい",
+      "plainNeg": "ひくくない",
+      "plainPast": "ひくかった",
+      "plainPastNeg": "ひくくなかった",
+      "polite": "ひくいです",
+      "politeNeg": "ひくくないです",
+      "politePast": "ひくかったです",
+      "politePastNeg": "ひくくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1508300657920",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 8,
+    "headword": "おもしろい",
+    "reading": "おもしろい",
+    "meaningsIt": [
+      "interessante"
+    ],
+    "declension": {
+      "plain": "おもしろい",
+      "plainNeg": "おもしろくない",
+      "plainPast": "おもしろかった",
+      "plainPastNeg": "おもしろくなかった",
+      "polite": "おもしろいです",
+      "politeNeg": "おもしろくないです",
+      "politePast": "おもしろかったです",
+      "politePastNeg": "おもしろくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1508300671864",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 8,
+    "headword": "おいしい",
+    "reading": "おいしい",
+    "meaningsIt": [
+      "delizioso / buono"
+    ],
+    "declension": {
+      "plain": "おいしい",
+      "plainNeg": "おいしくない",
+      "plainPast": "おいしかった",
+      "plainPastNeg": "おいしくなかった",
+      "polite": "おいしいです",
+      "politeNeg": "おいしくないです",
+      "politePast": "おいしかったです",
+      "politePastNeg": "おいしくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1508300690239",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 8,
+    "headword": "忙しい",
+    "reading": "いそがしい",
+    "meaningsIt": [
+      "occupato / impegnato"
+    ],
+    "declension": {
+      "plain": "いそがしい",
+      "plainNeg": "いそがしくない",
+      "plainPast": "いそがしかった",
+      "plainPastNeg": "いそがしくなかった",
+      "polite": "いそがしいです",
+      "politeNeg": "いそがしくないです",
+      "politePast": "いそがしかったです",
+      "politePastNeg": "いそがしくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1508300708923",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 8,
+    "headword": "楽しい",
+    "reading": "たのしい",
+    "meaningsIt": [
+      "divertente / piacevole"
+    ],
+    "declension": {
+      "plain": "たのしい",
+      "plainNeg": "たのしくない",
+      "plainPast": "たのしかった",
+      "plainPastNeg": "たのしくなかった",
+      "polite": "たのしいです",
+      "politeNeg": "たのしくないです",
+      "politePast": "たのしかったです",
+      "politePastNeg": "たのしくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1508300727400",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 8,
+    "headword": "白い",
+    "reading": "しろい",
+    "meaningsIt": [
+      "bianco"
+    ],
+    "declension": {
+      "plain": "しろい",
+      "plainNeg": "しろくない",
+      "plainPast": "しろかった",
+      "plainPastNeg": "しろくなかった",
+      "polite": "しろいです",
+      "politeNeg": "しろくないです",
+      "politePast": "しろかったです",
+      "politePastNeg": "しろくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1508300742010",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 8,
+    "headword": "黒い",
+    "reading": "くろい",
+    "meaningsIt": [
+      "nero"
+    ],
+    "declension": {
+      "plain": "くろい",
+      "plainNeg": "くろくない",
+      "plainPast": "くろかった",
+      "plainPastNeg": "くろくなかった",
+      "polite": "くろいです",
+      "politeNeg": "くろくないです",
+      "politePast": "くろかったです",
+      "politePastNeg": "くろくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1508300755605",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 8,
+    "headword": "赤い",
+    "reading": "あかい",
+    "meaningsIt": [
+      "rosso"
+    ],
+    "declension": {
+      "plain": "あかい",
+      "plainNeg": "あかくない",
+      "plainPast": "あかかった",
+      "plainPastNeg": "あかくなかった",
+      "polite": "あかいです",
+      "politeNeg": "あかくないです",
+      "politePast": "あかかったです",
+      "politePastNeg": "あかくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1508300766766",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 8,
+    "headword": "青い",
+    "reading": "あおい",
+    "meaningsIt": [
+      "blu / azzurro"
+    ],
+    "declension": {
+      "plain": "あおい",
+      "plainNeg": "あおくない",
+      "plainPast": "あおかった",
+      "plainPastNeg": "あおくなかった",
+      "polite": "あおいです",
+      "politeNeg": "あおくないです",
+      "politePast": "あおかったです",
+      "politePastNeg": "あおくなかったです"
+    }
+  },
+  {
+    "id": "adj_na_1508303437158",
+    "pos": "adjective-na",
+    "level": "N5",
+    "lesson": 9,
+    "headword": "好き",
+    "reading": "すき",
+    "meaningsIt": [
+      "piacere"
+    ],
+    "declension": {
+      "plain": "すきだ",
+      "plainNeg": "すきじゃない",
+      "plainPast": "すきだった",
+      "plainPastNeg": "すきじゃなかった",
+      "polite": "すきです",
+      "politeNeg": "すきじゃないです",
+      "politePast": "すきでした",
+      "politePastNeg": "すきじゃなかったです"
+    }
+  },
+  {
+    "id": "adj_na_1508303463713",
+    "pos": "adjective-na",
+    "level": "N5",
+    "lesson": 9,
+    "headword": "嫌い",
+    "reading": "きらい",
+    "meaningsIt": [
+      "non piacere / detestare"
+    ],
+    "declension": {
+      "plain": "きらいだ",
+      "plainNeg": "きらいじゃない",
+      "plainPast": "きらいだった",
+      "plainPastNeg": "きらいじゃなかった",
+      "polite": "きらいです",
+      "politeNeg": "きらいじゃないです",
+      "politePast": "きらいでした",
+      "politePastNeg": "きらいじゃなかったです"
+    }
+  },
+  {
+    "id": "adj_na_1508303489625",
+    "pos": "adjective-na",
+    "level": "N5",
+    "lesson": 9,
+    "headword": "上手です",
+    "reading": "じょうずです",
+    "meaningsIt": [
+      "bravo in / capace di"
+    ],
+    "declension": {
+      "plain": "じょうずですだ",
+      "plainNeg": "じょうずですじゃない",
+      "plainPast": "じょうずですだった",
+      "plainPastNeg": "じょうずですじゃなかった",
+      "polite": "じょうずですです",
+      "politeNeg": "じょうずですじゃないです",
+      "politePast": "じょうずですでした",
+      "politePastNeg": "じょうずですじゃなかったです"
+    }
+  },
+  {
+    "id": "adj_na_1508303530565",
+    "pos": "adjective-na",
+    "level": "N5",
+    "lesson": 9,
+    "headword": "下手",
+    "reading": "へた",
+    "meaningsIt": [
+      "negato in / incapace di"
+    ],
+    "declension": {
+      "plain": "へただ",
+      "plainNeg": "へたじゃない",
+      "plainPast": "へただった",
+      "plainPastNeg": "へたじゃなかった",
+      "polite": "へたです",
+      "politeNeg": "へたじゃないです",
+      "politePast": "へたでした",
+      "politePastNeg": "へたじゃなかったです"
+    }
+  },
+  {
+    "id": "adj_na_1508308358054",
+    "pos": "adjective-na",
+    "level": "N5",
+    "lesson": 10,
+    "headword": "いろいろ",
+    "reading": "いろいろ",
+    "meaningsIt": [
+      "vario / diversi"
+    ],
+    "declension": {
+      "plain": "いろいろだ",
+      "plainNeg": "いろいろじゃない",
+      "plainPast": "いろいろだった",
+      "plainPastNeg": "いろいろじゃなかった",
+      "polite": "いろいろです",
+      "politeNeg": "いろいろじゃないです",
+      "politePast": "いろいろでした",
+      "politePastNeg": "いろいろじゃなかったです"
+    }
+  },
+  {
+    "id": "adj_na_1508312512481",
+    "pos": "adjective-na",
+    "level": "N5",
+    "lesson": 12,
+    "headword": "簡単",
+    "reading": "かんたん",
+    "meaningsIt": [
+      "facile / semplice"
+    ],
+    "declension": {
+      "plain": "かんたんだ",
+      "plainNeg": "かんたんじゃない",
+      "plainPast": "かんたんだった",
+      "plainPastNeg": "かんたんじゃなかった",
+      "polite": "かんたんです",
+      "politeNeg": "かんたんじゃないです",
+      "politePast": "かんたんでした",
+      "politePastNeg": "かんたんじゃなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1508312664785",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 12,
+    "headword": "近い",
+    "reading": "ちかい",
+    "meaningsIt": [
+      "vicino"
+    ],
+    "declension": {
+      "plain": "ちかい",
+      "plainNeg": "ちかくない",
+      "plainPast": "ちかかった",
+      "plainPastNeg": "ちかくなかった",
+      "polite": "ちかいです",
+      "politeNeg": "ちかくないです",
+      "politePast": "ちかかったです",
+      "politePastNeg": "ちかくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1508312682371",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 12,
+    "headword": "遠い",
+    "reading": "とおい",
+    "meaningsIt": [
+      "lontano"
+    ],
+    "declension": {
+      "plain": "とおい",
+      "plainNeg": "とおくない",
+      "plainPast": "とおかった",
+      "plainPastNeg": "とおくなかった",
+      "polite": "とおいです",
+      "politeNeg": "とおくないです",
+      "politePast": "とおかったです",
+      "politePastNeg": "とおくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1508312734064",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 12,
+    "headword": "遅い",
+    "reading": "おそい",
+    "meaningsIt": [
+      "lento / tardi"
+    ],
+    "declension": {
+      "plain": "おそい",
+      "plainNeg": "おそくない",
+      "plainPast": "おそかった",
+      "plainPastNeg": "おそくなかった",
+      "polite": "おそいです",
+      "politeNeg": "おそくないです",
+      "politePast": "おそかったです",
+      "politePastNeg": "おそくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1508312752715",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 12,
+    "headword": "多い",
+    "reading": "おおい",
+    "meaningsIt": [
+      "molti / tanto"
+    ],
+    "declension": {
+      "plain": "おおい",
+      "plainNeg": "おおくない",
+      "plainPast": "おおかった",
+      "plainPastNeg": "おおくなかった",
+      "polite": "おおいです",
+      "politeNeg": "おおくないです",
+      "politePast": "おおかったです",
+      "politePastNeg": "おおくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1508312804934",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 12,
+    "headword": "少ない",
+    "reading": "すくない",
+    "meaningsIt": [
+      "pochi / un po’"
+    ],
+    "declension": {
+      "plain": "すくない",
+      "plainNeg": "すくなくない",
+      "plainPast": "すくなかった",
+      "plainPastNeg": "すくなくなかった",
+      "polite": "すくないです",
+      "politeNeg": "すくなくないです",
+      "politePast": "すくなかったです",
+      "politePastNeg": "すくなくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1508312890618",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 12,
+    "headword": "涼しい",
+    "reading": "すずしい",
+    "meaningsIt": [
+      "fresco"
+    ],
+    "declension": {
+      "plain": "すずしい",
+      "plainNeg": "すずしくない",
+      "plainPast": "すずしかった",
+      "plainPastNeg": "すずしくなかった",
+      "polite": "すずしいです",
+      "politeNeg": "すずしくないです",
+      "politePast": "すずしかったです",
+      "politePastNeg": "すずしくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1508312912361",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 12,
+    "headword": "甘い",
+    "reading": "あまい",
+    "meaningsIt": [
+      "dolce"
+    ],
+    "declension": {
+      "plain": "あまい",
+      "plainNeg": "あまくない",
+      "plainPast": "あまかった",
+      "plainPastNeg": "あまくなかった",
+      "polite": "あまいです",
+      "politeNeg": "あまくないです",
+      "politePast": "あまかったです",
+      "politePastNeg": "あまくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1508312925383",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 12,
+    "headword": "辛い",
+    "reading": "からい",
+    "meaningsIt": [
+      "piccante"
+    ],
+    "declension": {
+      "plain": "からい",
+      "plainNeg": "からくない",
+      "plainPast": "からかった",
+      "plainPastNeg": "からくなかった",
+      "polite": "からいです",
+      "politeNeg": "からくないです",
+      "politePast": "からかったです",
+      "politePastNeg": "からくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1508312941748",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 12,
+    "headword": "重い",
+    "reading": "おもい",
+    "meaningsIt": [
+      "pesante"
+    ],
+    "declension": {
+      "plain": "おもい",
+      "plainNeg": "おもくない",
+      "plainPast": "おもかった",
+      "plainPastNeg": "おもくなかった",
+      "polite": "おもいです",
+      "politeNeg": "おもくないです",
+      "politePast": "おもかったです",
+      "politePastNeg": "おもくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1508312977047",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 12,
+    "headword": "軽い",
+    "reading": "かるい",
+    "meaningsIt": [
+      "leggero"
+    ],
+    "declension": {
+      "plain": "かるい",
+      "plainNeg": "かるくない",
+      "plainPast": "かるかった",
+      "plainPastNeg": "かるくなかった",
+      "polite": "かるいです",
+      "politeNeg": "かるくないです",
+      "politePast": "かるかったです",
+      "politePastNeg": "かるくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1508312991168",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 12,
+    "headword": "いい",
+    "reading": "いい",
+    "meaningsIt": [
+      "preferire (es. il caffè)"
+    ],
+    "declension": {
+      "plain": "いい",
+      "plainNeg": "よくない",
+      "plainPast": "よかった",
+      "plainPastNeg": "よくなかった",
+      "polite": "いいです",
+      "politeNeg": "よくないです",
+      "politePast": "よかったです",
+      "politePastNeg": "よくなかったです"
+    }
+  },
+  {
+    "id": "adj_na_1508314178787",
+    "pos": "adjective-na",
+    "level": "N5",
+    "lesson": 13,
+    "headword": "大変",
+    "reading": "たいへん",
+    "meaningsIt": [
+      "duro / severo / terribile"
+    ],
+    "declension": {
+      "plain": "たいへんだ",
+      "plainNeg": "たいへんじゃない",
+      "plainPast": "たいへんだった",
+      "plainPastNeg": "たいへんじゃなかった",
+      "polite": "たいへんです",
+      "politeNeg": "たいへんじゃないです",
+      "politePast": "たいへんでした",
+      "politePastNeg": "たいへんじゃなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1508316150222",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 13,
+    "headword": "欲しい",
+    "reading": "ほしい",
+    "meaningsIt": [
+      "volere (qualcosa)"
+    ],
+    "declension": {
+      "plain": "ほしい",
+      "plainNeg": "ほしくない",
+      "plainPast": "ほしかった",
+      "plainPastNeg": "ほしくなかった",
+      "polite": "ほしいです",
+      "politeNeg": "ほしくないです",
+      "politePast": "ほしかったです",
+      "politePastNeg": "ほしくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1508316171614",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 13,
+    "headword": "広い",
+    "reading": "ひろい",
+    "meaningsIt": [
+      "ampio / spazioso"
+    ],
+    "declension": {
+      "plain": "ひろい",
+      "plainNeg": "ひろくない",
+      "plainPast": "ひろかった",
+      "plainPastNeg": "ひろくなかった",
+      "polite": "ひろいです",
+      "politeNeg": "ひろくないです",
+      "politePast": "ひろかったです",
+      "politePastNeg": "ひろくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1508316201422",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 13,
+    "headword": "狭い",
+    "reading": "せまい",
+    "meaningsIt": [
+      "stretto / piccolo (stanza ecc.)"
+    ],
+    "declension": {
+      "plain": "せまい",
+      "plainNeg": "せまくない",
+      "plainPast": "せまかった",
+      "plainPastNeg": "せまくなかった",
+      "polite": "せまいです",
+      "politeNeg": "せまくないです",
+      "politePast": "せまかったです",
+      "politePastNeg": "せまくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1510043500411",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 16,
+    "headword": "若い",
+    "reading": "わかい",
+    "meaningsIt": [
+      "giovane"
+    ],
+    "declension": {
+      "plain": "わかい",
+      "plainNeg": "わかくない",
+      "plainPast": "わかかった",
+      "plainPastNeg": "わかくなかった",
+      "polite": "わかいです",
+      "politeNeg": "わかくないです",
+      "politePast": "わかかったです",
+      "politePastNeg": "わかくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1510043518115",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 16,
+    "headword": "長い",
+    "reading": "ながい",
+    "meaningsIt": [
+      "lungo"
+    ],
+    "declension": {
+      "plain": "ながい",
+      "plainNeg": "ながくない",
+      "plainPast": "ながかった",
+      "plainPastNeg": "ながくなかった",
+      "polite": "ながいです",
+      "politeNeg": "ながくないです",
+      "politePast": "ながかったです",
+      "politePastNeg": "ながくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1510043534424",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 16,
+    "headword": "短い",
+    "reading": "みじかい",
+    "meaningsIt": [
+      "corto"
+    ],
+    "declension": {
+      "plain": "みじかい",
+      "plainNeg": "みじかくない",
+      "plainPast": "みじかかった",
+      "plainPastNeg": "みじかくなかった",
+      "polite": "みじかいです",
+      "politeNeg": "みじかくないです",
+      "politePast": "みじかかったです",
+      "politePastNeg": "みじかくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1510043626243",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 16,
+    "headword": "明るい",
+    "reading": "あかるい",
+    "meaningsIt": [
+      "luminoso / chiaro"
+    ],
+    "declension": {
+      "plain": "あかるい",
+      "plainNeg": "あかるくない",
+      "plainPast": "あかるかった",
+      "plainPastNeg": "あかるくなかった",
+      "polite": "あかるいです",
+      "politeNeg": "あかるくないです",
+      "politePast": "あかるかったです",
+      "politePastNeg": "あかるくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1510043648219",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 16,
+    "headword": "暗い",
+    "reading": "くらい",
+    "meaningsIt": [
+      "scuro"
+    ],
+    "declension": {
+      "plain": "くらい",
+      "plainNeg": "くらくない",
+      "plainPast": "くらかった",
+      "plainPastNeg": "くらくなかった",
+      "polite": "くらいです",
+      "politeNeg": "くらくないです",
+      "politePast": "くらかったです",
+      "politePastNeg": "くらくなかったです"
+    }
+  },
+  {
+    "id": "adj_na_1510122892265",
+    "pos": "adjective-na",
+    "level": "N5",
+    "lesson": 17,
+    "headword": "大切",
+    "reading": "たいせつ",
+    "meaningsIt": [
+      "importante / prezioso"
+    ],
+    "declension": {
+      "plain": "たいせつだ",
+      "plainNeg": "たいせつじゃない",
+      "plainPast": "たいせつだった",
+      "plainPastNeg": "たいせつじゃなかった",
+      "polite": "たいせつです",
+      "politeNeg": "たいせつじゃないです",
+      "politePast": "たいせつでした",
+      "politePastNeg": "たいせつじゃなかったです"
+    }
+  },
+  {
+    "id": "adj_na_1510122932216",
+    "pos": "adjective-na",
+    "level": "N5",
+    "lesson": 17,
+    "headword": "大丈夫",
+    "reading": "だいじょうぶ",
+    "meaningsIt": [
+      "va bene"
+    ],
+    "declension": {
+      "plain": "だいじょうぶだ",
+      "plainNeg": "だいじょうぶじゃない",
+      "plainPast": "だいじょうぶだった",
+      "plainPastNeg": "だいじょうぶじゃなかった",
+      "polite": "だいじょうぶです",
+      "politeNeg": "だいじょうぶじゃないです",
+      "politePast": "だいじょうぶでした",
+      "politePastNeg": "だいじょうぶじゃなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1510122962041",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 17,
+    "headword": "危ない",
+    "reading": "あぶない",
+    "meaningsIt": [
+      "pericoloso"
+    ],
+    "declension": {
+      "plain": "あぶない",
+      "plainNeg": "あぶなくない",
+      "plainPast": "あぶなかった",
+      "plainPastNeg": "あぶなくなかった",
+      "polite": "あぶないです",
+      "politeNeg": "あぶなくないです",
+      "politePast": "あぶなかったです",
+      "politePastNeg": "あぶなくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1525156476059",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 19,
+    "headword": "眠い",
+    "reading": "ねむい",
+    "meaningsIt": [
+      "assonnato"
+    ],
+    "declension": {
+      "plain": "ねむい",
+      "plainNeg": "ねむくない",
+      "plainPast": "ねむかった",
+      "plainPastNeg": "ねむくなかった",
+      "polite": "ねむいです",
+      "politeNeg": "ねむくないです",
+      "politePast": "ねむかったです",
+      "politePastNeg": "ねむくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1525156513539",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 19,
+    "headword": "強い",
+    "reading": "つよい",
+    "meaningsIt": [
+      "forte"
+    ],
+    "declension": {
+      "plain": "つよい",
+      "plainNeg": "つよくない",
+      "plainPast": "つよかった",
+      "plainPastNeg": "つよくなかった",
+      "polite": "つよいです",
+      "politeNeg": "つよくないです",
+      "politePast": "つよかったです",
+      "politePastNeg": "つよくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1525156529584",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 19,
+    "headword": "弱い",
+    "reading": "よわい",
+    "meaningsIt": [
+      "debole"
+    ],
+    "declension": {
+      "plain": "よわい",
+      "plainNeg": "よわくない",
+      "plainPast": "よわかった",
+      "plainPastNeg": "よわくなかった",
+      "polite": "よわいです",
+      "politeNeg": "よわくないです",
+      "politePast": "よわかったです",
+      "politePastNeg": "よわくなかったです"
+    }
+  },
+  {
+    "id": "adj_na_1525157357315",
+    "pos": "adjective-na",
+    "level": "N5",
+    "lesson": 19,
+    "headword": "無理",
+    "reading": "むり",
+    "meaningsIt": [
+      "eccessivo / impossibile"
+    ],
+    "declension": {
+      "plain": "むりだ",
+      "plainNeg": "むりじゃない",
+      "plainPast": "むりだった",
+      "plainPastNeg": "むりじゃなかった",
+      "polite": "むりです",
+      "politeNeg": "むりじゃないです",
+      "politePast": "むりでした",
+      "politePastNeg": "むりじゃなかったです"
+    }
+  },
+  {
+    "id": "adj_na_1525159629064",
+    "pos": "adjective-na",
+    "level": "N5",
+    "lesson": 21,
+    "headword": "むだ",
+    "reading": "むだ",
+    "meaningsIt": [
+      "sprecone / uno spreco"
+    ],
+    "declension": {
+      "plain": "むだだ",
+      "plainNeg": "むだじゃない",
+      "plainPast": "むだだった",
+      "plainPastNeg": "むだじゃなかった",
+      "polite": "むだです",
+      "politeNeg": "むだじゃないです",
+      "politePast": "むだでした",
+      "politePastNeg": "むだじゃなかったです"
+    }
+  },
+  {
+    "id": "adj_na_1525159665937",
+    "pos": "adjective-na",
+    "level": "N5",
+    "lesson": 21,
+    "headword": "不便",
+    "reading": "ふべん",
+    "meaningsIt": [
+      "scomodo"
+    ],
+    "declension": {
+      "plain": "ふべんだ",
+      "plainNeg": "ふべんじゃない",
+      "plainPast": "ふべんだった",
+      "plainPastNeg": "ふべんじゃなかった",
+      "polite": "ふべんです",
+      "politeNeg": "ふべんじゃないです",
+      "politePast": "ふべんでした",
+      "politePastNeg": "ふべんじゃなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1525159711611",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 21,
+    "headword": "すごい",
+    "reading": "すごい",
+    "meaningsIt": [
+      "incredibile (per esprimere stupore/ammirazione)"
+    ],
+    "declension": {
+      "plain": "すごい",
+      "plainNeg": "すごくない",
+      "plainPast": "すごかった",
+      "plainPastNeg": "すごくなかった",
+      "polite": "すごいです",
+      "politeNeg": "すごくないです",
+      "politePast": "すごかったです",
+      "politePastNeg": "すごくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1525162678053",
+    "pos": "adjective-i",
+    "level": "N5",
+    "lesson": 23,
+    "headword": "寂しい",
+    "reading": "さびしい",
+    "meaningsIt": [
+      "solo / solitario"
+    ],
+    "declension": {
+      "plain": "さびしい",
+      "plainNeg": "さびしくない",
+      "plainPast": "さびしかった",
+      "plainPastNeg": "さびしくなかった",
+      "polite": "さびしいです",
+      "politeNeg": "さびしくないです",
+      "politePast": "さびしかったです",
+      "politePastNeg": "さびしくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1549519699555",
+    "pos": "adjective-i",
+    "level": "N4",
+    "lesson": 35,
+    "headword": "正しい",
+    "reading": "ただしい",
+    "meaningsIt": [
+      "giusto / corretto"
+    ],
+    "declension": {
+      "plain": "ただしい",
+      "plainNeg": "ただしくない",
+      "plainPast": "ただしかった",
+      "plainPastNeg": "ただしくなかった",
+      "polite": "ただしいです",
+      "politeNeg": "ただしくないです",
+      "politePast": "ただしかったです",
+      "politePastNeg": "ただしくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1549520612316",
+    "pos": "adjective-i",
+    "level": "N4",
+    "lesson": 35,
+    "headword": "詳しい",
+    "reading": "くわしい",
+    "meaningsIt": [
+      "dettagliato"
+    ],
+    "declension": {
+      "plain": "くわしい",
+      "plainNeg": "くわしくない",
+      "plainPast": "くわしかった",
+      "plainPastNeg": "くわしくなかった",
+      "polite": "くわしいです",
+      "politeNeg": "くわしくないです",
+      "politePast": "くわしかったです",
+      "politePastNeg": "くわしくなかったです"
+    }
+  },
+  {
+    "id": "adj_na_1549520904164",
+    "pos": "adjective-na",
+    "level": "N4",
+    "lesson": 35,
+    "headword": "必要",
+    "reading": "ひつよう",
+    "meaningsIt": [
+      "necessario / essenziale"
+    ],
+    "declension": {
+      "plain": "ひつようだ",
+      "plainNeg": "ひつようじゃない",
+      "plainPast": "ひつようだった",
+      "plainPastNeg": "ひつようじゃなかった",
+      "polite": "ひつようです",
+      "politeNeg": "ひつようじゃないです",
+      "politePast": "ひつようでした",
+      "politePastNeg": "ひつようじゃなかったです"
+    }
+  },
+  {
+    "id": "adj_na_1549948045133",
+    "pos": "adjective-na",
+    "level": "N4",
+    "lesson": 36,
+    "headword": "特別",
+    "reading": "とくべつ",
+    "meaningsIt": [
+      "speciale"
+    ],
+    "declension": {
+      "plain": "とくべつだ",
+      "plainNeg": "とくべつじゃない",
+      "plainPast": "とくべつだった",
+      "plainPastNeg": "とくべつじゃなかった",
+      "polite": "とくべつです",
+      "politeNeg": "とくべつじゃないです",
+      "politePast": "とくべつでした",
+      "politePastNeg": "とくべつじゃなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1549948612801",
+    "pos": "adjective-i",
+    "level": "N4",
+    "lesson": 36,
+    "headword": "珍しい",
+    "reading": "めずらしい",
+    "meaningsIt": [
+      "raro"
+    ],
+    "declension": {
+      "plain": "めずらしい",
+      "plainNeg": "めずらしくない",
+      "plainPast": "めずらしかった",
+      "plainPastNeg": "めずらしくなかった",
+      "polite": "めずらしいです",
+      "politeNeg": "めずらしくないです",
+      "politePast": "めずらしかったです",
+      "politePastNeg": "めずらしくなかったです"
+    }
+  },
+  {
+    "id": "adj_na_1549951951263",
+    "pos": "adjective-na",
+    "level": "N4",
+    "lesson": 27,
+    "headword": "心配",
+    "reading": "しんぱい",
+    "meaningsIt": [
+      "preoccupato / ansioso"
+    ],
+    "declension": {
+      "plain": "しんぱいだ",
+      "plainNeg": "しんぱいじゃない",
+      "plainPast": "しんぱいだった",
+      "plainPastNeg": "しんぱいじゃなかった",
+      "polite": "しんぱいです",
+      "politeNeg": "しんぱいじゃないです",
+      "politePast": "しんぱいでした",
+      "politePastNeg": "しんぱいじゃなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1549952712539",
+    "pos": "adjective-i",
+    "level": "N4",
+    "lesson": 27,
+    "headword": "すばらしい",
+    "reading": "すばらしい",
+    "meaningsIt": [
+      "meraviglioso"
+    ],
+    "declension": {
+      "plain": "すばらしい",
+      "plainNeg": "すばらしくない",
+      "plainPast": "すばらしかった",
+      "plainPastNeg": "すばらしくなかった",
+      "polite": "すばらしいです",
+      "politeNeg": "すばらしくないです",
+      "politePast": "すばらしかったです",
+      "politePastNeg": "すばらしくなかったです"
+    }
+  },
+  {
+    "id": "adj_na_1549952760716",
+    "pos": "adjective-na",
+    "level": "N4",
+    "lesson": 27,
+    "headword": "大好き",
+    "reading": "だいすき",
+    "meaningsIt": [
+      "piacere molto"
+    ],
+    "declension": {
+      "plain": "だいすきだ",
+      "plainNeg": "だいすきじゃない",
+      "plainPast": "だいすきだった",
+      "plainPastNeg": "だいすきじゃなかった",
+      "polite": "だいすきです",
+      "politeNeg": "だいすきじゃないです",
+      "politePast": "だいすきでした",
+      "politePastNeg": "だいすきじゃなかったです"
+    }
+  },
+  {
+    "id": "adj_na_1549952860880",
+    "pos": "adjective-na",
+    "level": "N4",
+    "lesson": 27,
+    "headword": "不思議",
+    "reading": "ふしぎ",
+    "meaningsIt": [
+      "fantastico / misterioso"
+    ],
+    "declension": {
+      "plain": "ふしぎだ",
+      "plainNeg": "ふしぎじゃない",
+      "plainPast": "ふしぎだった",
+      "plainPastNeg": "ふしぎじゃなかった",
+      "polite": "ふしぎです",
+      "politeNeg": "ふしぎじゃないです",
+      "politePast": "ふしぎでした",
+      "politePastNeg": "ふしぎじゃなかったです"
+    }
+  },
+  {
+    "id": "adj_na_1549953818800",
+    "pos": "adjective-na",
+    "level": "N4",
+    "lesson": 28,
+    "headword": "まじめ",
+    "reading": "まじめ",
+    "meaningsIt": [
+      "serio"
+    ],
+    "declension": {
+      "plain": "まじめだ",
+      "plainNeg": "まじめじゃない",
+      "plainPast": "まじめだった",
+      "plainPastNeg": "まじめじゃなかった",
+      "polite": "まじめです",
+      "politeNeg": "まじめじゃないです",
+      "politePast": "まじめでした",
+      "politePastNeg": "まじめじゃなかったです"
+    }
+  },
+  {
+    "id": "adj_na_1549954746971",
+    "pos": "adjective-na",
+    "level": "N4",
+    "lesson": 28,
+    "headword": "熱心",
+    "reading": "ねっしん",
+    "meaningsIt": [
+      "serio / diligente"
+    ],
+    "declension": {
+      "plain": "ねっしんだ",
+      "plainNeg": "ねっしんじゃない",
+      "plainPast": "ねっしんだった",
+      "plainPastNeg": "ねっしんじゃなかった",
+      "polite": "ねっしんです",
+      "politeNeg": "ねっしんじゃないです",
+      "politePast": "ねっしんでした",
+      "politePastNeg": "ねっしんじゃなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1549954778439",
+    "pos": "adjective-i",
+    "level": "N4",
+    "lesson": 28,
+    "headword": "偉い",
+    "reading": "えらい",
+    "meaningsIt": [
+      "grandioso / ammirevole"
+    ],
+    "declension": {
+      "plain": "えらい",
+      "plainNeg": "えらくない",
+      "plainPast": "えらかった",
+      "plainPastNeg": "えらくなかった",
+      "polite": "えらいです",
+      "politeNeg": "えらくないです",
+      "politePast": "えらかったです",
+      "politePastNeg": "えらくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1549963294949",
+    "pos": "adjective-i",
+    "level": "N4",
+    "lesson": 30,
+    "headword": "丸い",
+    "reading": "まるい",
+    "meaningsIt": [
+      "rotondo"
+    ],
+    "declension": {
+      "plain": "まるい",
+      "plainNeg": "まるくない",
+      "plainPast": "まるかった",
+      "plainPastNeg": "まるくなかった",
+      "polite": "まるいです",
+      "politeNeg": "まるくないです",
+      "politePast": "まるかったです",
+      "politePastNeg": "まるくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1549963405421",
+    "pos": "adjective-i",
+    "level": "N4",
+    "lesson": 30,
+    "headword": "うれしい",
+    "reading": "うれしい",
+    "meaningsIt": [
+      "contento / felice"
+    ],
+    "declension": {
+      "plain": "うれしい",
+      "plainNeg": "うれしくない",
+      "plainPast": "うれしかった",
+      "plainPastNeg": "うれしくなかった",
+      "polite": "うれしいです",
+      "politeNeg": "うれしくないです",
+      "politePast": "うれしかったです",
+      "politePastNeg": "うれしくなかったです"
+    }
+  },
+  {
+    "id": "adj_na_1549963420828",
+    "pos": "adjective-na",
+    "level": "N4",
+    "lesson": 30,
+    "headword": "嫌",
+    "reading": "いや",
+    "meaningsIt": [
+      "odioso / antipatico"
+    ],
+    "declension": {
+      "plain": "いやだ",
+      "plainNeg": "いやじゃない",
+      "plainPast": "いやだった",
+      "plainPastNeg": "いやじゃなかった",
+      "polite": "いやです",
+      "politeNeg": "いやじゃないです",
+      "politePast": "いやでした",
+      "politePastNeg": "いやじゃなかったです"
+    }
+  },
+  {
+    "id": "adj_na_1550211075785",
+    "pos": "adjective-na",
+    "level": "N4",
+    "lesson": 32,
+    "headword": "十分",
+    "reading": "じゅうぶん",
+    "meaningsIt": [
+      "abbastanza / sufficiente"
+    ],
+    "declension": {
+      "plain": "じゅうぶんだ",
+      "plainNeg": "じゅうぶんじゃない",
+      "plainPast": "じゅうぶんだった",
+      "plainPastNeg": "じゅうぶんじゃなかった",
+      "polite": "じゅうぶんです",
+      "politeNeg": "じゅうぶんじゃないです",
+      "politePast": "じゅうぶんでした",
+      "politePastNeg": "じゅうぶんじゃなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1550211103526",
+    "pos": "adjective-i",
+    "level": "N4",
+    "lesson": 32,
+    "headword": "おかしい",
+    "reading": "おかしい",
+    "meaningsIt": [
+      "strano / divertente"
+    ],
+    "declension": {
+      "plain": "おかしい",
+      "plainNeg": "おかしくない",
+      "plainPast": "おかしかった",
+      "plainPastNeg": "おかしくなかった",
+      "polite": "おかしいです",
+      "politeNeg": "おかしくないです",
+      "politePast": "おかしかったです",
+      "politePastNeg": "おかしくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1550211115149",
+    "pos": "adjective-i",
+    "level": "N4",
+    "lesson": 32,
+    "headword": "うるさい",
+    "reading": "うるさい",
+    "meaningsIt": [
+      "rumoroso"
+    ],
+    "declension": {
+      "plain": "うるさい",
+      "plainNeg": "うるさくない",
+      "plainPast": "うるさかった",
+      "plainPastNeg": "うるさくなかった",
+      "polite": "うるさいです",
+      "politeNeg": "うるさくないです",
+      "politePast": "うるさかったです",
+      "politePastNeg": "うるさくなかったです"
+    }
+  },
+  {
+    "id": "adj_na_1550212877907",
+    "pos": "adjective-na",
+    "level": "N4",
+    "lesson": 33,
+    "headword": "だめ",
+    "reading": "だめ",
+    "meaningsIt": [
+      "non va bene / vietato / impossibile"
+    ],
+    "declension": {
+      "plain": "だめだ",
+      "plainNeg": "だめじゃない",
+      "plainPast": "だめだった",
+      "plainPastNeg": "だめじゃなかった",
+      "polite": "だめです",
+      "politeNeg": "だめじゃないです",
+      "politePast": "だめでした",
+      "politePastNeg": "だめじゃなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1550213482810",
+    "pos": "adjective-i",
+    "level": "N4",
+    "lesson": 33,
+    "headword": "悲しい",
+    "reading": "かなしい",
+    "meaningsIt": [
+      "triste"
+    ],
+    "declension": {
+      "plain": "かなしい",
+      "plainNeg": "かなしくない",
+      "plainPast": "かなしかった",
+      "plainPastNeg": "かなしくなかった",
+      "polite": "かなしいです",
+      "politeNeg": "かなしくないです",
+      "politePast": "かなしかったです",
+      "politePastNeg": "かなしくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1550214748971",
+    "pos": "adjective-i",
+    "level": "N4",
+    "lesson": 34,
+    "headword": "苦い",
+    "reading": "にがい",
+    "meaningsIt": [
+      "amaro"
+    ],
+    "declension": {
+      "plain": "にがい",
+      "plainNeg": "にがくない",
+      "plainPast": "にがかった",
+      "plainPastNeg": "にがくなかった",
+      "polite": "にがいです",
+      "politeNeg": "にがくないです",
+      "politePast": "にがかったです",
+      "politePastNeg": "にがくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1550378881747",
+    "pos": "adjective-i",
+    "level": "N4",
+    "lesson": 37,
+    "headword": "美しい",
+    "reading": "うつくしい",
+    "meaningsIt": [
+      "bello / grazioso"
+    ],
+    "declension": {
+      "plain": "うつくしい",
+      "plainNeg": "うつくしくない",
+      "plainPast": "うつくしかった",
+      "plainPastNeg": "うつくしくなかった",
+      "polite": "うつくしいです",
+      "politeNeg": "うつくしくないです",
+      "politePast": "うつくしかったです",
+      "politePastNeg": "うつくしくなかったです"
+    }
+  },
+  {
+    "id": "adj_na_1550378905411",
+    "pos": "adjective-na",
+    "level": "N4",
+    "lesson": 37,
+    "headword": "豪華",
+    "reading": "ごうか",
+    "meaningsIt": [
+      "splendido / magnifico"
+    ],
+    "declension": {
+      "plain": "ごうかだ",
+      "plainNeg": "ごうかじゃない",
+      "plainPast": "ごうかだった",
+      "plainPastNeg": "ごうかじゃなかった",
+      "polite": "ごうかです",
+      "politeNeg": "ごうかじゃないです",
+      "politePast": "ごうかでした",
+      "politePastNeg": "ごうかじゃなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1550384129178",
+    "pos": "adjective-i",
+    "level": "N4",
+    "lesson": 38,
+    "headword": "おとなしい",
+    "reading": "おとなしい",
+    "meaningsIt": [
+      "tranquillo / gentile"
+    ],
+    "declension": {
+      "plain": "おとなしい",
+      "plainNeg": "おとなしくない",
+      "plainPast": "おとなしかった",
+      "plainPastNeg": "おとなしくなかった",
+      "polite": "おとなしいです",
+      "politeNeg": "おとなしくないです",
+      "politePast": "おとなしかったです",
+      "politePastNeg": "おとなしくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1550384143452",
+    "pos": "adjective-i",
+    "level": "N4",
+    "lesson": 38,
+    "headword": "優しい",
+    "reading": "やさしい",
+    "meaningsIt": [
+      "gentile / di buon cuore"
+    ],
+    "declension": {
+      "plain": "やさしい",
+      "plainNeg": "やさしくない",
+      "plainPast": "やさしかった",
+      "plainPastNeg": "やさしくなかった",
+      "polite": "やさしいです",
+      "politeNeg": "やさしくないです",
+      "politePast": "やさしかったです",
+      "politePastNeg": "やさしくなかったです"
+    }
+  },
+  {
+    "id": "adj_na_1550384294794",
+    "pos": "adjective-na",
+    "level": "N4",
+    "lesson": 38,
+    "headword": "不思議",
+    "reading": "ふしぎ",
+    "meaningsIt": [
+      "misterioso / strano"
+    ],
+    "declension": {
+      "plain": "ふしぎだ",
+      "plainNeg": "ふしぎじゃない",
+      "plainPast": "ふしぎだった",
+      "plainPastNeg": "ふしぎじゃなかった",
+      "polite": "ふしぎです",
+      "politeNeg": "ふしぎじゃないです",
+      "politePast": "ふしぎでした",
+      "politePastNeg": "ふしぎじゃなかったです"
+    }
+  },
+  {
+    "id": "adj_na_1550385214589",
+    "pos": "adjective-na",
+    "level": "N4",
+    "lesson": 39,
+    "headword": "複雑",
+    "reading": "ふくざつ",
+    "meaningsIt": [
+      "complicato / complesso"
+    ],
+    "declension": {
+      "plain": "ふくざつだ",
+      "plainNeg": "ふくざつじゃない",
+      "plainPast": "ふくざつだった",
+      "plainPastNeg": "ふくざつじゃなかった",
+      "polite": "ふくざつです",
+      "politeNeg": "ふくざつじゃないです",
+      "politePast": "ふくざつでした",
+      "politePastNeg": "ふくざつじゃなかったです"
+    }
+  },
+  {
+    "id": "adj_na_1550385234503",
+    "pos": "adjective-na",
+    "level": "N4",
+    "lesson": 39,
+    "headword": "邪魔",
+    "reading": "じゃま",
+    "meaningsIt": [
+      "d’intralcio / che dà fastidio"
+    ],
+    "declension": {
+      "plain": "じゃまだ",
+      "plainNeg": "じゃまじゃない",
+      "plainPast": "じゃまだった",
+      "plainPastNeg": "じゃまじゃなかった",
+      "polite": "じゃまです",
+      "politeNeg": "じゃまじゃないです",
+      "politePast": "じゃまでした",
+      "politePastNeg": "じゃまじゃなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1550385255613",
+    "pos": "adjective-i",
+    "level": "N4",
+    "lesson": 39,
+    "headword": "硬い",
+    "reading": "かたい",
+    "meaningsIt": [
+      "duro / solido"
+    ],
+    "declension": {
+      "plain": "かたい",
+      "plainNeg": "かたくない",
+      "plainPast": "かたかった",
+      "plainPastNeg": "かたくなかった",
+      "polite": "かたいです",
+      "politeNeg": "かたくないです",
+      "politePast": "かたかったです",
+      "politePastNeg": "かたくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1550385266206",
+    "pos": "adjective-i",
+    "level": "N4",
+    "lesson": 39,
+    "headword": "軟らかい",
+    "reading": "やわらかい",
+    "meaningsIt": [
+      "morbido / tenero"
+    ],
+    "declension": {
+      "plain": "やわらかい",
+      "plainNeg": "やわらかくない",
+      "plainPast": "やわらかかった",
+      "plainPastNeg": "やわらかくなかった",
+      "polite": "やわらかいです",
+      "politeNeg": "やわらかくないです",
+      "politePast": "やわらかかったです",
+      "politePastNeg": "やわらかくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1550385283485",
+    "pos": "adjective-i",
+    "level": "N4",
+    "lesson": 39,
+    "headword": "汚い",
+    "reading": "きたない",
+    "meaningsIt": [
+      "sporco"
+    ],
+    "declension": {
+      "plain": "きたない",
+      "plainNeg": "きたなくない",
+      "plainPast": "きたなかった",
+      "plainPastNeg": "きたなくなかった",
+      "polite": "きたないです",
+      "politeNeg": "きたなくないです",
+      "politePast": "きたなかったです",
+      "politePastNeg": "きたなくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1550385316603",
+    "pos": "adjective-i",
+    "level": "N4",
+    "lesson": 39,
+    "headword": "恥ずかしい",
+    "reading": "はずかしい",
+    "meaningsIt": [
+      "imbarazzato / vergognoso"
+    ],
+    "declension": {
+      "plain": "はずかしい",
+      "plainNeg": "はずかしくない",
+      "plainPast": "はずかしかった",
+      "plainPastNeg": "はずかしくなかった",
+      "polite": "はずかしいです",
+      "politeNeg": "はずかしくないです",
+      "politePast": "はずかしかったです",
+      "politePastNeg": "はずかしくなかったです"
+    }
+  },
+  {
+    "id": "adj_na_1550462267498",
+    "pos": "adjective-na",
+    "level": "N4",
+    "lesson": 40,
+    "headword": "必要",
+    "reading": "ひつよう",
+    "meaningsIt": [
+      "necessario"
+    ],
+    "declension": {
+      "plain": "ひつようだ",
+      "plainNeg": "ひつようじゃない",
+      "plainPast": "ひつようだった",
+      "plainPastNeg": "ひつようじゃなかった",
+      "polite": "ひつようです",
+      "politeNeg": "ひつようじゃないです",
+      "politePast": "ひつようでした",
+      "politePastNeg": "ひつようじゃなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1550463759972",
+    "pos": "adjective-i",
+    "level": "N4",
+    "lesson": 41,
+    "headword": "かわいい",
+    "reading": "かわいい",
+    "meaningsIt": [
+      "carino / grazioso"
+    ],
+    "declension": {
+      "plain": "かわいい",
+      "plainNeg": "かわいくない",
+      "plainPast": "かわいかった",
+      "plainPastNeg": "かわいくなかった",
+      "polite": "かわいいです",
+      "politeNeg": "かわいくないです",
+      "politePast": "かわいかったです",
+      "politePastNeg": "かわいくなかったです"
+    }
+  },
+  {
+    "id": "adj_na_1550465078960",
+    "pos": "adjective-na",
+    "level": "N4",
+    "lesson": 41,
+    "headword": "真っ白",
+    "reading": "っまっしろ",
+    "meaningsIt": [
+      "bianco puro"
+    ],
+    "declension": {
+      "plain": "っまっしろだ",
+      "plainNeg": "っまっしろじゃない",
+      "plainPast": "っまっしろだった",
+      "plainPastNeg": "っまっしろじゃなかった",
+      "polite": "っまっしろです",
+      "politeNeg": "っまっしろじゃないです",
+      "politePast": "っまっしろでした",
+      "politePastNeg": "っまっしろじゃなかったです"
+    }
+  },
+  {
+    "id": "adj_na_1550466787199",
+    "pos": "adjective-na",
+    "level": "N4",
+    "lesson": 42,
+    "headword": "丈夫",
+    "reading": "じょうぶ",
+    "meaningsIt": [
+      "robusto / in salute"
+    ],
+    "declension": {
+      "plain": "じょうぶだ",
+      "plainNeg": "じょうぶじゃない",
+      "plainPast": "じょうぶだった",
+      "plainPastNeg": "じょうぶじゃなかった",
+      "polite": "じょうぶです",
+      "politeNeg": "じょうぶじゃないです",
+      "politePast": "じょうぶでした",
+      "politePastNeg": "じょうぶじゃなかったです"
+    }
+  },
+  {
+    "id": "adj_na_1550468442258",
+    "pos": "adjective-na",
+    "level": "N4",
+    "lesson": 43,
+    "headword": "変",
+    "reading": "へん",
+    "meaningsIt": [
+      "strano / particolare"
+    ],
+    "declension": {
+      "plain": "へんだ",
+      "plainNeg": "へんじゃない",
+      "plainPast": "へんだった",
+      "plainPastNeg": "へんじゃなかった",
+      "polite": "へんです",
+      "politeNeg": "へんじゃないです",
+      "politePast": "へんでした",
+      "politePastNeg": "へんじゃなかったです"
+    }
+  },
+  {
+    "id": "adj_na_1550468461769",
+    "pos": "adjective-na",
+    "level": "N4",
+    "lesson": 43,
+    "headword": "幸せ",
+    "reading": "しあわせ",
+    "meaningsIt": [
+      "felice"
+    ],
+    "declension": {
+      "plain": "しあわせだ",
+      "plainNeg": "しあわせじゃない",
+      "plainPast": "しあわせだった",
+      "plainPastNeg": "しあわせじゃなかった",
+      "polite": "しあわせです",
+      "politeNeg": "しあわせじゃないです",
+      "politePast": "しあわせでした",
+      "politePastNeg": "しあわせじゃなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1550468498479",
+    "pos": "adjective-i",
+    "level": "N4",
+    "lesson": 43,
+    "headword": "うまい",
+    "reading": "うまい",
+    "meaningsIt": [
+      "gustoso"
+    ],
+    "declension": {
+      "plain": "うまい",
+      "plainNeg": "うまくない",
+      "plainPast": "うまかった",
+      "plainPastNeg": "うまくなかった",
+      "polite": "うまいです",
+      "politeNeg": "うまくないです",
+      "politePast": "うまかったです",
+      "politePastNeg": "うまくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1550468506647",
+    "pos": "adjective-i",
+    "level": "N4",
+    "lesson": 43,
+    "headword": "まずい",
+    "reading": "まずい",
+    "meaningsIt": [
+      "non buono / cattivo (di sapore)"
+    ],
+    "declension": {
+      "plain": "まずい",
+      "plainNeg": "まずくない",
+      "plainPast": "まずかった",
+      "plainPastNeg": "まずくなかった",
+      "polite": "まずいです",
+      "politeNeg": "まずくないです",
+      "politePast": "まずかったです",
+      "politePastNeg": "まずくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1550468513637",
+    "pos": "adjective-i",
+    "level": "N4",
+    "lesson": 43,
+    "headword": "つまらない",
+    "reading": "つまらない",
+    "meaningsIt": [
+      "noioso / insignificante"
+    ],
+    "declension": {
+      "plain": "つまらない",
+      "plainNeg": "つまらなくない",
+      "plainPast": "つまらなかった",
+      "plainPastNeg": "つまらなくなかった",
+      "polite": "つまらないです",
+      "politeNeg": "つまらなくないです",
+      "politePast": "つまらなかったです",
+      "politePastNeg": "つまらなくなかったです"
+    }
+  },
+  {
+    "id": "adj_na_1550470793018",
+    "pos": "adjective-na",
+    "level": "N4",
+    "lesson": 44,
+    "headword": "安全",
+    "reading": "あんぜん",
+    "meaningsIt": [
+      "sicuro"
+    ],
+    "declension": {
+      "plain": "あんぜんだ",
+      "plainNeg": "あんぜんじゃない",
+      "plainPast": "あんぜんだった",
+      "plainPastNeg": "あんぜんじゃなかった",
+      "polite": "あんぜんです",
+      "politeNeg": "あんぜんじゃないです",
+      "politePast": "あんぜんでした",
+      "politePastNeg": "あんぜんじゃなかったです"
+    }
+  },
+  {
+    "id": "adj_na_1550470810026",
+    "pos": "adjective-na",
+    "level": "N4",
+    "lesson": 44,
+    "headword": "危険",
+    "reading": "きけん",
+    "meaningsIt": [
+      "pericoloso"
+    ],
+    "declension": {
+      "plain": "きけんだ",
+      "plainNeg": "きけんじゃない",
+      "plainPast": "きけんだった",
+      "plainPastNeg": "きけんじゃなかった",
+      "polite": "きけんです",
+      "politeNeg": "きけんじゃないです",
+      "politePast": "きけんでした",
+      "politePastNeg": "きけんじゃなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1550470825270",
+    "pos": "adjective-i",
+    "level": "N4",
+    "lesson": 44,
+    "headword": "濃い",
+    "reading": "こい",
+    "meaningsIt": [
+      "forte (sapore) / scuro (colore) / denso (liquido)"
+    ],
+    "declension": {
+      "plain": "こい",
+      "plainNeg": "こくない",
+      "plainPast": "こかった",
+      "plainPastNeg": "こくなかった",
+      "polite": "こいです",
+      "politeNeg": "こくないです",
+      "politePast": "こかったです",
+      "politePastNeg": "こくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1550470850386",
+    "pos": "adjective-i",
+    "level": "N4",
+    "lesson": 44,
+    "headword": "薄い",
+    "reading": "うすい",
+    "meaningsIt": [
+      "debole (sapore) / chiaro (colore) / liquido (poco denso)"
+    ],
+    "declension": {
+      "plain": "うすい",
+      "plainNeg": "うすくない",
+      "plainPast": "うすかった",
+      "plainPastNeg": "うすくなかった",
+      "polite": "うすいです",
+      "politeNeg": "うすくないです",
+      "politePast": "うすかったです",
+      "politePastNeg": "うすくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1550470871486",
+    "pos": "adjective-i",
+    "level": "N4",
+    "lesson": 44,
+    "headword": "厚い",
+    "reading": "あつい",
+    "meaningsIt": [
+      "spesso"
+    ],
+    "declension": {
+      "plain": "あつい",
+      "plainNeg": "あつくない",
+      "plainPast": "あつかった",
+      "plainPastNeg": "あつくなかった",
+      "polite": "あついです",
+      "politeNeg": "あつくないです",
+      "politePast": "あつかったです",
+      "politePastNeg": "あつくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1550470887481",
+    "pos": "adjective-i",
+    "level": "N4",
+    "lesson": 44,
+    "headword": "太い",
+    "reading": "ふとい",
+    "meaningsIt": [
+      "grosso (diametro grande)"
+    ],
+    "declension": {
+      "plain": "ふとい",
+      "plainNeg": "ふとくない",
+      "plainPast": "ふとかった",
+      "plainPastNeg": "ふとくなかった",
+      "polite": "ふといです",
+      "politeNeg": "ふとくないです",
+      "politePast": "ふとかったです",
+      "politePastNeg": "ふとくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1550470905808",
+    "pos": "adjective-i",
+    "level": "N4",
+    "lesson": 44,
+    "headword": "細い",
+    "reading": "ほそい",
+    "meaningsIt": [
+      "sottile (diametro piccolo)"
+    ],
+    "declension": {
+      "plain": "ほそい",
+      "plainNeg": "ほそくない",
+      "plainPast": "ほそかった",
+      "plainPastNeg": "ほそくなかった",
+      "polite": "ほそいです",
+      "politeNeg": "ほそくないです",
+      "politePast": "ほそかったです",
+      "politePastNeg": "ほそくなかったです"
+    }
+  },
+  {
+    "id": "adj_na_1550471351039",
+    "pos": "adjective-na",
+    "level": "N4",
+    "lesson": 44,
+    "headword": "安心",
+    "reading": "あんしん",
+    "meaningsIt": [
+      "sollevato"
+    ],
+    "declension": {
+      "plain": "あんしんだ",
+      "plainNeg": "あんしんじゃない",
+      "plainPast": "あんしんだった",
+      "plainPastNeg": "あんしんじゃなかった",
+      "polite": "あんしんです",
+      "politeNeg": "あんしんじゃないです",
+      "politePast": "あんしんでした",
+      "politePastNeg": "あんしんじゃなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1550480957774",
+    "pos": "adjective-i",
+    "level": "N4",
+    "lesson": 47,
+    "headword": "厳しい",
+    "reading": "きびしい",
+    "meaningsIt": [
+      "severo / rigido"
+    ],
+    "declension": {
+      "plain": "きびしい",
+      "plainNeg": "きびしくない",
+      "plainPast": "きびしかった",
+      "plainPastNeg": "きびしくなかった",
+      "polite": "きびしいです",
+      "politeNeg": "きびしくないです",
+      "politePast": "きびしかったです",
+      "politePastNeg": "きびしくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1550480982708",
+    "pos": "adjective-i",
+    "level": "N4",
+    "lesson": 47,
+    "headword": "ひどい",
+    "reading": "ひどい",
+    "meaningsIt": [
+      "terribile / grave"
+    ],
+    "declension": {
+      "plain": "ひどい",
+      "plainNeg": "ひどくない",
+      "plainPast": "ひどかった",
+      "plainPastNeg": "ひどくなかった",
+      "polite": "ひどいです",
+      "politeNeg": "ひどくないです",
+      "politePast": "ひどかったです",
+      "politePastNeg": "ひどくなかったです"
+    }
+  },
+  {
+    "id": "adj_i_1550481004959",
+    "pos": "adjective-i",
+    "level": "N4",
+    "lesson": 47,
+    "headword": "怖い",
+    "reading": "こわい",
+    "meaningsIt": [
+      "spaventoso / terribile"
+    ],
+    "declension": {
+      "plain": "こわい",
+      "plainNeg": "こわくない",
+      "plainPast": "こわかった",
+      "plainPastNeg": "こわくなかった",
+      "polite": "こわいです",
+      "politeNeg": "こわくないです",
+      "politePast": "こわかったです",
+      "politePastNeg": "こわくなかったです"
+    }
+  },
+  {
+    "id": "adj_na_1550481746689",
+    "pos": "adjective-na",
+    "level": "N4",
+    "lesson": 48,
+    "headword": "嫌",
+    "reading": "いや",
+    "meaningsIt": [
+      "riluttante / non disposto"
+    ],
+    "declension": {
+      "plain": "いやだ",
+      "plainNeg": "いやじゃない",
+      "plainPast": "いやだった",
+      "plainPastNeg": "いやじゃなかった",
+      "polite": "いやです",
+      "politeNeg": "いやじゃないです",
+      "politePast": "いやでした",
+      "politePastNeg": "いやじゃなかったです"
+    }
+  }
+]

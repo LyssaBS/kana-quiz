@@ -1,0 +1,131 @@
+[
+  { "id": "a",  "hira": "あ", "kata": "ア" },
+  { "id": "i",  "hira": "い", "kata": "イ" },
+  { "id": "u",  "hira": "う", "kata": "ウ" },
+  { "id": "e",  "hira": "え", "kata": "エ" },
+  { "id": "o",  "hira": "お", "kata": "オ" },
+
+  { "id": "ka", "hira": "か", "kata": "カ" },
+  { "id": "ki", "hira": "き", "kata": "キ" },
+  { "id": "ku", "hira": "く", "kata": "ク" },
+  { "id": "ke", "hira": "け", "kata": "ケ" },
+  { "id": "ko", "hira": "こ", "kata": "コ" },
+
+  { "id": "sa",  "hira": "さ", "kata": "サ" },
+  { "id": "shi", "hira": "し", "kata": "シ" },
+  { "id": "su",  "hira": "す", "kata": "ス" },
+  { "id": "se",  "hira": "せ", "kata": "セ" },
+  { "id": "so",  "hira": "そ", "kata": "ソ" },
+
+  { "id": "ta",  "hira": "た", "kata": "タ" },
+  { "id": "chi", "hira": "ち", "kata": "チ" },
+  { "id": "tsu", "hira": "つ", "kata": "ツ" },
+  { "id": "te",  "hira": "て", "kata": "テ" },
+  { "id": "to",  "hira": "と", "kata": "ト" },
+
+  { "id": "na", "hira": "な", "kata": "ナ" },
+  { "id": "ni", "hira": "に", "kata": "ニ" },
+  { "id": "nu", "hira": "ぬ", "kata": "ヌ" },
+  { "id": "ne", "hira": "ね", "kata": "ネ" },
+  { "id": "no", "hira": "の", "kata": "ノ" },
+
+  { "id": "ha", "hira": "は", "kata": "ハ" },
+  { "id": "hi", "hira": "ひ", "kata": "ヒ" },
+  { "id": "fu", "hira": "ふ", "kata": "フ" },
+  { "id": "he", "hira": "へ", "kata": "ヘ" },
+  { "id": "ho", "hira": "ほ", "kata": "ホ" },
+
+  { "id": "ma", "hira": "ま", "kata": "マ" },
+  { "id": "mi", "hira": "み", "kata": "ミ" },
+  { "id": "mu", "hira": "む", "kata": "ム" },
+  { "id": "me", "hira": "め", "kata": "メ" },
+  { "id": "mo", "hira": "も", "kata": "モ" },
+
+  { "id": "ya", "hira": "や", "kata": "ヤ" },
+  { "id": "yu", "hira": "ゆ", "kata": "ユ" },
+  { "id": "yo", "hira": "よ", "kata": "ヨ" },
+
+  { "id": "ra", "hira": "ら", "kata": "ラ" },
+  { "id": "ri", "hira": "り", "kata": "リ" },
+  { "id": "ru", "hira": "る", "kata": "ル" },
+  { "id": "re", "hira": "れ", "kata": "レ" },
+  { "id": "ro", "hira": "ろ", "kata": "ロ" },
+
+  { "id": "wa", "hira": "わ", "kata": "ワ" },
+  { "id": "wo", "hira": "を", "kata": "ヲ" },
+  { "id": "n",  "hira": "ん", "kata": "ン" },
+
+  { "id": "ga", "hira": "が", "kata": "ガ" },
+  { "id": "gi", "hira": "ぎ", "kata": "ギ" },
+  { "id": "gu", "hira": "ぐ", "kata": "グ" },
+  { "id": "ge", "hira": "げ", "kata": "ゲ" },
+  { "id": "go", "hira": "ご", "kata": "ゴ" },
+
+  { "id": "za", "hira": "ざ", "kata": "ザ" },
+  { "id": "ji", "hira": "じ", "kata": "ジ" },
+  { "id": "zu", "hira": "ず", "kata": "ズ" },
+  { "id": "ze", "hira": "ぜ", "kata": "ゼ" },
+  { "id": "zo", "hira": "ぞ", "kata": "ゾ" },
+
+  { "id": "da", "hira": "だ", "kata": "ダ" },
+  { "id": "dji", "hira": "ぢ", "kata": "ヂ" },
+  { "id": "dzu", "hira": "づ", "kata": "ヅ" },
+  { "id": "de", "hira": "で", "kata": "デ" },
+  { "id": "do", "hira": "ど", "kata": "ド" },
+
+  { "id": "ba", "hira": "ば", "kata": "バ" },
+  { "id": "bi", "hira": "び", "kata": "ビ" },
+  { "id": "bu", "hira": "ぶ", "kata": "ブ" },
+  { "id": "be", "hira": "べ", "kata": "ベ" },
+  { "id": "bo", "hira": "ぼ", "kata": "ボ" },
+
+  { "id": "pa", "hira": "ぱ", "kata": "パ" },
+  { "id": "pi", "hira": "ぴ", "kata": "ピ" },
+  { "id": "pu", "hira": "ぷ", "kata": "プ" },
+  { "id": "pe", "hira": "ぺ", "kata": "ペ" },
+  { "id": "po", "hira": "ぽ", "kata": "ポ" },
+
+  { "id": "kya", "hira": "きゃ", "kata": "キャ" },
+  { "id": "kyu", "hira": "きゅ", "kata": "キュ" },
+  { "id": "kyo", "hira": "きょ", "kata": "キョ" },
+
+  { "id": "gya", "hira": "ぎゃ", "kata": "ギャ" },
+  { "id": "gyu", "hira": "ぎゅ", "kata": "ギュ" },
+  { "id": "gyo", "hira": "ぎょ", "kata": "ギョ" },
+
+  { "id": "sha", "hira": "しゃ", "kata": "シャ" },
+  { "id": "shu", "hira": "しゅ", "kata": "シュ" },
+  { "id": "sho", "hira": "しょ", "kata": "ショ" },
+
+  { "id": "ja", "hira": "じゃ", "kata": "ジャ" },
+  { "id": "ju", "hira": "じゅ", "kata": "ジュ" },
+  { "id": "jo", "hira": "じょ", "kata": "ジョ" },
+
+  { "id": "cha", "hira": "ちゃ", "kata": "チャ" },
+  { "id": "chu", "hira": "ちゅ", "kata": "チュ" },
+  { "id": "cho", "hira": "ちょ", "kata": "チョ" },
+
+  { "id": "nya", "hira": "にゃ", "kata": "ニャ" },
+  { "id": "nyu", "hira": "にゅ", "kata": "ニュ" },
+  { "id": "nyo", "hira": "にょ", "kata": "ニョ" },
+
+  { "id": "hya", "hira": "ひゃ", "kata": "ヒャ" },
+  { "id": "hyu", "hira": "ひゅ", "kata": "ヒュ" },
+  { "id": "hyo", "hira": "ひょ", "kata": "ヒョ" },
+
+  { "id": "bya", "hira": "びゃ", "kata": "ビャ" },
+  { "id": "byu", "hira": "びゅ", "kata": "ビュ" },
+  { "id": "byo", "hira": "びょ", "kata": "ビョ" },
+
+  { "id": "pya", "hira": "ぴゃ", "kata": "ピャ" },
+  { "id": "pyu", "hira": "ぴゅ", "kata": "ピュ" },
+  { "id": "pyo", "hira": "ぴょ", "kata": "ピョ" },
+
+  { "id": "mya", "hira": "みゃ", "kata": "ミャ" },
+  { "id": "myu", "hira": "みゅ", "kata": "ミュ" },
+  { "id": "myo", "hira": "みょ", "kata": "ミョ" },
+
+  { "id": "rya", "hira": "りゃ", "kata": "リャ" },
+  { "id": "ryu", "hira": "りゅ", "kata": "リュ" },
+  { "id": "ryo", "hira": "りょ", "kata": "リョ" }
+]

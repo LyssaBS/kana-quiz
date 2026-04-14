@@ -1,6 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+html {
+  color-scheme: light;
+}
 html, body {
   height: 100%;
+  background: #ffffff !important;
+  color: #1a1a1a !important;
 }
 body {
   margin: 0;
@@ -8,16 +13,18 @@ body {
   background:
     radial-gradient(20rem 20rem at 10% 10%, #f7f7ff 0%, rgba(0,0,0,0) 70%),
     radial-gradient(20rem 20rem at 90% 20%, #f5fbff 0%, rgba(0,0,0,0) 70%),
-    radial-gradient(30rem 20rem at 50% 100%, #fff8f4 0%, rgba(0,0,0,0) 70%);
+    radial-gradient(30rem 20rem at 50% 100%, #fff8f4 0%, rgba(0,0,0,0) 70%) !important;
 }
 
 button {
-  background: white;
+  background: white !important;
   border: 1px solid #d8dce0;
   border-radius: 8px;
   padding: 10px 14px;
   font-size: 16px;
   transition: border-color .2s, box-shadow .2s, transform .02s;
+  color: #1a1a1a !important;
+  forced-color-adjust: none;
 }
 button:hover {
   border-color: #b0b7bf;
@@ -30,16 +37,19 @@ button:active {
 a {
   color: #0a6cff;
   text-decoration: none;
+  forced-color-adjust: none;
 }
 a:hover {
   text-decoration: underline;
 }
 
 .choice.is-correct {
-  border-color: #22c55e;
+  border-color: #22c55e !important;
   box-shadow: 0 1px 4px rgba(34,197,94,.2), 0 6px 20px rgba(34,197,94,.08);
+  forced-color-adjust: none;
 }
 .choice.is-wrong {
-  border-color: #dc2626;
+  border-color: #dc2626 !important;
   box-shadow: 0 1px 4px rgba(220,38,38,.2), 0 6px 20px rgba(220,38,38,.08);
+  forced-color-adjust: none;
 }

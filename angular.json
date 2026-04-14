@@ -18,6 +18,10 @@
           "options": {
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
+            "outputPath": {
+              "base": "docs",
+              "browser": ""
+            },
             "assets": [
               {
                 "glob": "**/*",
@@ -26,6 +30,11 @@
               },
               {
                 "glob": "404.html",
+                "input": "src",
+                "output": ""
+              },
+              {
+                "glob": ".nojekyll",
                 "input": "src",
                 "output": ""
               }
@@ -54,7 +63,8 @@
             "development": {
               "optimization": false,
               "extractLicenses": false,
-              "sourceMap": true
+              "sourceMap": true,
+              "baseHref": "/kana-quiz/"
             }
           },
           "defaultConfiguration": "production"

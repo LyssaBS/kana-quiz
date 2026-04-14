@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>KanaQuiz</title>
+  <base href="/kana-quiz/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    var pathSegments = window.location.pathname.split('/').filter(function(seg) { return seg.length > 0; });
+    var repoName = 'kana-quiz';
+    if (pathSegments[0] === repoName) {
+      pathSegments.shift();
+    }
+    var newUrl = '/' + repoName + '/' + pathSegments.join('/');
+    if (window.location.search) newUrl += window.location.search;
+    if (window.location.hash) newUrl += window.location.hash;
+    window.location.replace(newUrl);
+  </script>
+</head>
+<body>
+  <app-root></app-root>
+</body>
+</html>

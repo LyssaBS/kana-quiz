@@ -1,4 +1,4 @@
-export type QuizMode = 'vocab-mc' | 'kana-hira' | 'kana-kata' | 'verb-meaning' | 'verb-conj';
+export type QuizMode = 'vocab-mc' | 'kana-hira' | 'kana-kata' | 'verb-meaning' | 'verb-conj' | 'kanji';
 
 export interface VocabItem {
   id: string;
@@ -22,6 +22,20 @@ export interface KanaItem {
   id: string;
   hira: string;
   kata: string;
+}
+
+export interface KanjiReading {
+  kana: string;
+  romaji: string;
+}
+
+export interface KanjiItem {
+  id: number;
+  kanji: string;
+  'lettura kun': KanjiReading[];
+  'lettura on': KanjiReading[];
+  significato: string;
+  lezione: number;
 }
 
 export interface VerbForms {

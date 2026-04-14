@@ -19,6 +19,7 @@ type FeedbackState =
   templateUrl: './quiz.html',
 })
 export class QuizComponent implements OnInit {
+  readonly quickLessonRangeValue = -999;
   items: VocabItem[] = [];
   allItems: VocabItem[] = [];
   availableLessons: number[] = [];
@@ -76,6 +77,9 @@ export class QuizComponent implements OnInit {
         new Set(this.allItems.map((x) => x.lesson).filter((x): x is number => typeof x === 'number'))
       ).sort((a, b) => a - b);
       this.lessonOptions = this.availableLessons.map((l) => ({ label: String(l), value: l }));
+      if (this.availableLessons.length > 26) {
+        this.lessonOptions.unshift({ label: 'Lezioni 0-25', value: this.quickLessonRangeValue });
+      }
       this.applyFilters();
 
       if (!this.items || this.items.length === 0) {
@@ -136,6 +140,13 @@ export class QuizComponent implements OnInit {
     this.wrongCount = 0;
     this.recentIds = [];
     this.nextQuestion();
+  }
+
+  onLessonsChange() {
+    if (this.selectedLessons.includes(this.quickLessonRangeValue)) {
+      this.selectedLessons = this.availableLessons.filter((lesson) => lesson >= 0 && lesson <= 25);
+    }
+    this.applyFilters();
   }
 
   applyFilters() {

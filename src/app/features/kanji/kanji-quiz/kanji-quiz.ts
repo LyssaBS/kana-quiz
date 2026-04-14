@@ -1,11 +1,11 @@
 import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { MultiSelect } from 'primeng/multiselect';
 import { RouterModule } from '@angular/router';
+import { MultiSelect } from 'primeng/multiselect';
 import { DataService } from '../../../core/data.service';
 import { QuizService } from '../../../core/quiz.service';
-import { QuizQuestion, AdjectiveItem } from '../../../core/models';
+import { KanjiItem, QuizQuestion } from '../../../core/models';
 
 type FeedbackState =
   | { status: 'idle' }
@@ -13,15 +13,15 @@ type FeedbackState =
   | { status: 'wrong'; chosenIndex: number; correctIndex: number };
 
 @Component({
-  selector: 'app-adjectives-quiz',
+  selector: 'app-kanji-quiz',
   standalone: true,
-  imports: [CommonModule, RouterModule, FormsModule, MultiSelect],
-  templateUrl: './adjectives-quiz.html',
+  imports: [CommonModule, FormsModule, RouterModule, MultiSelect],
+  templateUrl: './kanji-quiz.html',
 })
-export class AdjectivesQuizComponent implements OnInit {
+export class KanjiQuizComponent implements OnInit {
   readonly quickLessonRangeValue = -999;
-  items: AdjectiveItem[] = [];
-  allItems: AdjectiveItem[] = [];
+  items: KanjiItem[] = [];
+  allItems: KanjiItem[] = [];
   availableLessons: number[] = [];
   lessonOptions: { label: string; value: number }[] = [];
   selectedLessons: number[] = [];
@@ -39,23 +39,23 @@ export class AdjectivesQuizComponent implements OnInit {
 
   async ngOnInit() {
     try {
-      this.allItems = await this.data.loadAdjectives();
+      this.allItems = await this.data.loadKanji();
       if (!this.allItems || this.allItems.length === 0) {
-        this.errorMsg = 'adjectives.json caricato, ma è vuoto.';
+        this.errorMsg = 'kanji.json caricato, ma è vuoto.';
         return;
       }
+
       this.availableLessons = Array.from(
-        new Set(this.allItems.map((x: any) => x.lesson).filter((x): x is number => typeof x === 'number'))
+        new Set(this.allItems.map((x) => x.lezione).filter((x): x is number => typeof x === 'number'))
       ).sort((a, b) => a - b);
-      this.lessonOptions = this.availableLessons.map((l) => ({ label: String(l), value: l }));
+      this.lessonOptions = this.availableLessons.map((l) => ({ label: `Lezione ${l}`, value: l }));
       if (this.availableLessons.length > 26) {
         this.lessonOptions.unshift({ label: 'Lezioni 0-25', value: this.quickLessonRangeValue });
       }
       this.applyFilters();
-      this.nextQuestion();
       this.cd.detectChanges();
     } catch (e: any) {
-      this.errorMsg = 'Errore nel caricamento di adjectives.json: ' + (e?.message ?? String(e));
+      this.errorMsg = 'Errore nel caricamento di kanji.json: ' + (e?.message ?? String(e));
     }
   }
 
@@ -66,7 +66,7 @@ export class AdjectivesQuizComponent implements OnInit {
   nextQuestion() {
     try {
       this.feedback = { status: 'idle' };
-      this.question = this.quiz.buildNextAdjectiveConjugationQuestion(this.items, 4, this.recentIds);
+      this.question = this.quiz.buildNextKanjiQuestion(this.items, 4, this.recentIds);
       if (this.question) {
         this.recentIds.push(this.question.itemId);
         if (this.recentIds.length > this.repeatBlockSpan) this.recentIds.shift();
@@ -99,11 +99,11 @@ export class AdjectivesQuizComponent implements OnInit {
     this.items =
       this.selectedLessons.length === 0
         ? this.allItems
-        : this.allItems.filter((x: any) => typeof x.lesson === 'number' && this.selectedLessons.includes(x.lesson));
+        : this.allItems.filter((x) => this.selectedLessons.includes(x.lezione));
     this.feedback = { status: 'idle' };
     this.recentIds = [];
     if (this.items.length === 0) {
-      this.errorMsg = 'Nessun aggettivo per le lezioni selezionate.';
+      this.errorMsg = 'Nessun kanji per le lezioni selezionate.';
       this.question = null;
     } else {
       this.errorMsg = null;

@@ -10,7 +10,7 @@
     <p-multiSelect
       [options]="lessonOptions"
       [(ngModel)]="selectedLessons"
-      (onChange)="applyFilters()"
+      (onChange)="onLessonsChange()"
       placeholder="Seleziona lezioni"
       display="chip"
       optionLabel="label"

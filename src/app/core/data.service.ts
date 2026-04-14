@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { firstValueFrom } from 'rxjs';
-import { VocabItem, KanaItem, VerbItem, AdjectiveItem } from './models';
+import { VocabItem, KanaItem, VerbItem, AdjectiveItem, KanjiItem } from './models';
 
 @Injectable({ providedIn: 'root' })
 export class DataService {
@@ -21,5 +21,9 @@ export class DataService {
 
   loadAdjectives(): Promise<AdjectiveItem[]> {
     return firstValueFrom(this.http.get<AdjectiveItem[]>('assets/data/adjectives.json'));
+  }
+
+  loadKanji(): Promise<KanjiItem[]> {
+    return firstValueFrom(this.http.get<KanjiItem[]>('assets/data/kanji.json'));
   }
 }

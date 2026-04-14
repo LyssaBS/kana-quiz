@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { VocabItem, QuizQuestion, KanaItem, VerbItem, VerbForms, AdjectiveItem, AdjectiveFormKey } from './models';
+import { VocabItem, QuizQuestion, KanaItem, VerbItem, VerbForms, AdjectiveItem, AdjectiveFormKey, KanjiItem, KanjiReading } from './models';
 
 function shuffle<T>(arr: T[]): T[] {
   const a = [...arr];
@@ -12,6 +12,10 @@ function shuffle<T>(arr: T[]): T[] {
 
 @Injectable({ providedIn: 'root' })
 export class QuizService {
+  private formatKanjiReading(reading: KanjiReading): string {
+    return `${reading.kana} - ${reading.romaji}`;
+  }
+
   buildNextVocabMcQuestion(items: VocabItem[], choicesCount = 4, excludeIds: string[] = []): QuizQuestion {
     if (items.length < choicesCount) {
       throw new Error(`Servono almeno ${choicesCount} vocaboli per fare multiple choice.`);
@@ -194,5 +198,85 @@ export class QuizService {
     };
     const prompt = `${labelMap[targetKey]} di ${item.headword}`;
     return { prompt, reading: `${item.reading} (${item.meaningsIt[0]})`, choices, correctIndex, itemId: item.id };
+  }
+
+  buildNextKanjiQuestion(items: KanjiItem[], choicesCount = 4, excludeIds: string[] = []): QuizQuestion {
+    if (items.length < choicesCount) {
+      throw new Error(`Servono almeno ${choicesCount} kanji per fare multiple choice.`);
+    }
+
+    const pool = items.filter((x) => !excludeIds.includes(String(x.id)));
+    const pickFrom = pool.length > 0 ? pool : items;
+
+    for (const item of shuffle(pickFrom)) {
+      const validKinds: Array<'meaning' | 'kun' | 'on'> = [];
+      const meaningDistractors = shuffle(
+        items
+          .filter((x) => x.id !== item.id)
+          .map((x) => x.significato)
+      ).filter((m, idx, self) => self.indexOf(m) === idx && m !== item.significato);
+
+      if (meaningDistractors.length >= choicesCount - 1) {
+        validKinds.push('meaning');
+      }
+
+      const kunDistractors = shuffle(
+        items
+          .filter((x) => x.id !== item.id)
+          .flatMap((x) => x['lettura kun'] ?? [])
+          .map((reading) => this.formatKanjiReading(reading))
+      ).filter((m, idx, self) => self.indexOf(m) === idx);
+
+      if ((item['lettura kun']?.length ?? 0) > 0 && kunDistractors.length >= choicesCount - 1) {
+        validKinds.push('kun');
+      }
+
+      const onDistractors = shuffle(
+        items
+          .filter((x) => x.id !== item.id)
+          .flatMap((x) => x['lettura on'] ?? [])
+          .map((reading) => this.formatKanjiReading(reading))
+      ).filter((m, idx, self) => self.indexOf(m) === idx);
+
+      if ((item['lettura on']?.length ?? 0) > 0 && onDistractors.length >= choicesCount - 1) {
+        validKinds.push('on');
+      }
+
+      if (validKinds.length === 0) {
+        continue;
+      }
+
+      const kind = validKinds[Math.floor(Math.random() * validKinds.length)];
+      if (kind === 'meaning') {
+        const correct = item.significato;
+        const choices = shuffle([correct, ...meaningDistractors.slice(0, choicesCount - 1)]);
+        return {
+          prompt: item.kanji,
+          reading: 'Scegli il significato',
+          choices,
+          correctIndex: choices.indexOf(correct),
+          itemId: String(item.id),
+        };
+      }
+
+      const readings = kind === 'kun' ? item['lettura kun'] : item['lettura on'];
+      const correct = this.formatKanjiReading(
+        readings[Math.floor(Math.random() * readings.length)]
+      );
+      const distractors = (kind === 'kun' ? kunDistractors : onDistractors)
+        .filter((m) => m !== correct)
+        .slice(0, choicesCount - 1);
+      const choices = shuffle([correct, ...distractors]);
+
+      return {
+        prompt: item.kanji,
+        reading: kind === 'kun' ? 'Scegli la lettura kun' : 'Scegli la lettura on',
+        choices,
+        correctIndex: choices.indexOf(correct),
+        itemId: String(item.id),
+      };
+    }
+
+    throw new Error('Non ci sono abbastanza letture o significati distinti per generare il quiz kanji.');
   }
 }

@@ -19,6 +19,7 @@ type FeedbackState =
   templateUrl: './verbs-quiz.html',
 })
 export class VerbsQuizComponent implements OnInit {
+  readonly quickLessonRangeValue = -999;
   items: VerbItem[] = [];
   allItems: VerbItem[] = [];
   availableLessons: number[] = [];
@@ -50,6 +51,9 @@ export class VerbsQuizComponent implements OnInit {
         new Set(this.allItems.map((x: any) => x.lesson).filter((x): x is number => typeof x === 'number'))
       ).sort((a, b) => a - b);
       this.lessonOptions = this.availableLessons.map((l) => ({ label: String(l), value: l }));
+      if (this.availableLessons.length > 26) {
+        this.lessonOptions.unshift({ label: 'Lezioni 0-25', value: this.quickLessonRangeValue });
+      }
       this.applyFilters();
       this.nextQuestion();
       this.cd.detectChanges();
@@ -88,6 +92,13 @@ export class VerbsQuizComponent implements OnInit {
       ? { status: 'correct', chosenIndex: index }
       : { status: 'wrong', chosenIndex: index, correctIndex: this.question.correctIndex };
     this.cd.detectChanges();
+  }
+
+  onLessonsChange() {
+    if (this.selectedLessons.includes(this.quickLessonRangeValue)) {
+      this.selectedLessons = this.availableLessons.filter((lesson) => lesson >= 0 && lesson <= 25);
+    }
+    this.applyFilters();
   }
 
   applyFilters() {

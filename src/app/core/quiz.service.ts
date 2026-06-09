@@ -200,7 +200,7 @@ export class QuizService {
     return { prompt, reading: `${item.reading} (${item.meaningsIt[0]})`, choices, correctIndex, itemId: item.id };
   }
 
-  buildNextKanjiQuestion(items: KanjiItem[], choicesCount = 4, excludeIds: string[] = []): QuizQuestion {
+  buildNextKanjiQuestion(items: KanjiItem[], choicesCount = 4, excludeIds: string[] = [], allowedTypes: Array<'meaning' | 'kun' | 'on'> = ['meaning', 'kun', 'on']): QuizQuestion {
     if (items.length < choicesCount) {
       throw new Error(`Servono almeno ${choicesCount} kanji per fare multiple choice.`);
     }
@@ -216,7 +216,7 @@ export class QuizService {
           .map((x) => x.significato)
       ).filter((m, idx, self) => self.indexOf(m) === idx && m !== item.significato);
 
-      if (meaningDistractors.length >= choicesCount - 1) {
+      if (allowedTypes.includes('meaning') && meaningDistractors.length >= choicesCount - 1) {
         validKinds.push('meaning');
       }
 
@@ -227,7 +227,7 @@ export class QuizService {
           .map((reading) => this.formatKanjiReading(reading))
       ).filter((m, idx, self) => self.indexOf(m) === idx);
 
-      if ((item['lettura kun']?.length ?? 0) > 0 && kunDistractors.length >= choicesCount - 1) {
+      if (allowedTypes.includes('kun') && (item['lettura kun']?.length ?? 0) > 0 && kunDistractors.length >= choicesCount - 1) {
         validKinds.push('kun');
       }
 
@@ -238,7 +238,7 @@ export class QuizService {
           .map((reading) => this.formatKanjiReading(reading))
       ).filter((m, idx, self) => self.indexOf(m) === idx);
 
-      if ((item['lettura on']?.length ?? 0) > 0 && onDistractors.length >= choicesCount - 1) {
+      if (allowedTypes.includes('on') && (item['lettura on']?.length ?? 0) > 0 && onDistractors.length >= choicesCount - 1) {
         validKinds.push('on');
       }
 

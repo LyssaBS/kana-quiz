@@ -12,6 +12,8 @@ type FeedbackState =
   | { status: 'correct'; chosenIndex: number }
   | { status: 'wrong'; chosenIndex: number; correctIndex: number };
 
+type KanjiQuestionType = 'meaning' | 'on' | 'kun';
+
 @Component({
   selector: 'app-kanji-quiz',
   standalone: true,
@@ -25,6 +27,12 @@ export class KanjiQuizComponent implements OnInit {
   availableLessons: number[] = [];
   lessonOptions: { label: string; value: number }[] = [];
   selectedLessons: number[] = [];
+  typeOptions: { label: string; value: KanjiQuestionType }[] = [
+    { label: 'Significato', value: 'meaning' },
+    { label: 'Lettura on', value: 'on' },
+    { label: 'Lettura kun', value: 'kun' },
+  ];
+  selectedTypes: KanjiQuestionType[] = ['meaning', 'on', 'kun'];
   question: QuizQuestion | null = null;
   feedback: FeedbackState = { status: 'idle' };
   recentIds: string[] = [];
@@ -66,7 +74,7 @@ export class KanjiQuizComponent implements OnInit {
   nextQuestion() {
     try {
       this.feedback = { status: 'idle' };
-      this.question = this.quiz.buildNextKanjiQuestion(this.items, 4, this.recentIds);
+      this.question = this.quiz.buildNextKanjiQuestion(this.items, 4, this.recentIds, this.selectedTypes);
       if (this.question) {
         this.recentIds.push(this.question.itemId);
         if (this.recentIds.length > this.repeatBlockSpan) this.recentIds.shift();
@@ -92,6 +100,10 @@ export class KanjiQuizComponent implements OnInit {
     if (this.selectedLessons.includes(this.quickLessonRangeValue)) {
       this.selectedLessons = this.availableLessons.filter((lesson) => lesson >= 0 && lesson <= 25);
     }
+    this.applyFilters();
+  }
+
+  onTypesChange() {
     this.applyFilters();
   }
 

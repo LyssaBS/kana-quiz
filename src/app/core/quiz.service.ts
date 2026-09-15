@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { VocabItem, QuizQuestion, KanaItem, VerbItem, VerbForms, AdjectiveItem, AdjectiveFormKey, KanjiItem, KanjiReading } from './models';
+import { QuizQuestion, KanjiItem, KanjiEsempio } from './models';
 
 function shuffle<T>(arr: T[]): T[] {
   const a = [...arr];
@@ -10,236 +10,77 @@ function shuffle<T>(arr: T[]): T[] {
   return a;
 }
 
+export type KanjiQuestionType = 'meaning' | 'on' | 'kun' | 'parole';
+
 @Injectable({ providedIn: 'root' })
 export class QuizService {
-  private formatKanjiReading(reading: KanjiReading): string {
-    return `${reading.kana} - ${reading.romaji}`;
+  private formatEsempio(esempio: KanjiEsempio): string {
+    return `${esempio.parola} (${esempio.lettura}) - ${esempio.significato}`;
   }
 
-  buildNextVocabMcQuestion(items: VocabItem[], choicesCount = 4, excludeIds: string[] = []): QuizQuestion {
-    if (items.length < choicesCount) {
-      throw new Error(`Servono almeno ${choicesCount} vocaboli per fare multiple choice.`);
-    }
-
-    const pool = items.filter((x) => !excludeIds.includes(x.id));
-    const pickFrom = pool.length > 0 ? pool : items;
-    const item = pickFrom[Math.floor(Math.random() * pickFrom.length)];
-    const correct = item.meaningsIt[0];
-
-    const distractors = shuffle(
-      items
-        .filter((x) => x.id !== item.id)
-        .map((x) => x.meaningsIt[0])
-    )
-      .filter((m, idx, self) => self.indexOf(m) === idx && m !== correct)
-      .slice(0, choicesCount - 1);
-
-    const choices = shuffle([correct, ...distractors]);
-    const correctIndex = choices.indexOf(correct);
-
-    return {
-      prompt: item.headword,
-      reading: item.reading,
-      choices,
-      correctIndex,
-      itemId: item.id,
-    };
-  }
-
-  private conjAdjective(item: AdjectiveItem, key: AdjectiveFormKey): string {
-    if (item.declension) {
-      const map: Record<AdjectiveFormKey, string | undefined> = {
-        present: item.declension.polite ?? item.declension.plain,
-        negative: item.declension.politeNeg ?? item.declension.plainNeg,
-        past: item.declension.politePast ?? item.declension.plainPast,
-        pastNegative: item.declension.politePastNeg ?? item.declension.plainPastNeg,
-        te: item.declension.te,
-      };
-      if (map[key]) return map[key] as string;
-    }
-    if (item.type === 'i') {
-      const base = item.reading;
-      if (!base.endsWith('い')) {
-        return base;
-      }
-      const stem = base.slice(0, -1);
-      switch (key) {
-        case 'present':
-          return base;
-        case 'negative':
-          return `${stem}くない`;
-        case 'past':
-          return `${stem}かった`;
-        case 'pastNegative':
-          return `${stem}くなかった`;
-        case 'te':
-          return `${stem}くて`;
-      }
-    } else {
-      const base = item.reading;
-      switch (key) {
-        case 'present':
-          return `${base}だ`;
-        case 'negative':
-          return `${base}じゃない`;
-        case 'past':
-          return `${base}だった`;
-        case 'pastNegative':
-          return `${base}じゃなかった`;
-        case 'te':
-          return `${base}で`;
-      }
-    }
-  }
-
-  buildNextAdjectiveConjugationQuestion(items: AdjectiveItem[], choicesCount = 4, excludeIds: string[] = []): QuizQuestion {
-    const pool = items.filter((x) => !excludeIds.includes(x.id));
-    const pickFrom = pool.length > 0 ? pool : items;
-    if (items.length < choicesCount) {
-      throw new Error(`Servono almeno ${choicesCount} aggettivi per fare multiple choice.`);
-    }
-    const item = pickFrom[Math.floor(Math.random() * pickFrom.length)];
-    const keys: AdjectiveFormKey[] = ['present', 'negative', 'past', 'pastNegative', 'te'];
-    const targetKey = keys[Math.floor(Math.random() * keys.length)];
-    const correct = this.conjAdjective(item, targetKey);
-    const distractors = shuffle(
-      items
-        .filter((x) => x.id !== item.id)
-        .map((x) => this.conjAdjective(x, targetKey))
-    )
-      .filter((m): m is string => typeof m === 'string')
-      .filter((m, idx, self) => self.indexOf(m) === idx && m !== correct)
-      .slice(0, choicesCount - 1);
-    const choices = shuffle([correct, ...distractors]);
-    const correctIndex = choices.indexOf(correct);
-    const labelMap: Record<AdjectiveFormKey, string> = {
-      present: 'presente',
-      negative: 'presente negativo',
-      past: 'passato',
-      pastNegative: 'passato negativo',
-      te: 'forma て',
-    };
-    const prompt = `${labelMap[targetKey]} di ${item.headword}`;
-    return { prompt, reading: `${item.reading} (${item.meaningsIt[0]})`, choices, correctIndex, itemId: item.id };
-  }
-
-  buildNextKanaQuestion(items: KanaItem[], script: 'hira' | 'kata', choicesCount = 5, excludeIds: string[] = []): QuizQuestion {
-    const pool = items.filter((x) => !excludeIds.includes(x.id));
-    const pickFrom = pool.length > 0 ? pool : items;
-    if (pickFrom.length < choicesCount) {
-      throw new Error(`Servono almeno ${choicesCount} caratteri kana per fare multiple choice.`);
-    }
-    const item = pickFrom[Math.floor(Math.random() * pickFrom.length)];
-    const prompt = script === 'hira' ? item.hira : item.kata;
-    const correct = item.id;
-    const distractors = shuffle(items.filter((x) => x.id !== item.id).map((x) => x.id))
-      .filter((m, idx, self) => self.indexOf(m) === idx && m !== correct)
-      .slice(0, choicesCount - 1);
-    const choices = shuffle([correct, ...distractors]);
-    const correctIndex = choices.indexOf(correct);
-    return { prompt, choices, correctIndex, itemId: item.id };
-  }
-
-  buildNextVerbMeaningQuestion(items: VerbItem[], choicesCount = 4, excludeIds: string[] = []): QuizQuestion {
-    const pool = items.filter((x) => !excludeIds.includes(x.id));
-    const pickFrom = pool.length > 0 ? pool : items;
-    if (items.length < choicesCount) {
-      throw new Error(`Servono almeno ${choicesCount} verbi per fare multiple choice.`);
-    }
-    const item = pickFrom[Math.floor(Math.random() * pickFrom.length)];
-    const correct = item.meaningsIt[0];
-    const distractors = shuffle(items.filter((x) => x.id !== item.id).map((x) => x.meaningsIt[0]))
-      .filter((m, idx, self) => self.indexOf(m) === idx && m !== correct)
-      .slice(0, choicesCount - 1);
-    const choices = shuffle([correct, ...distractors]);
-    const correctIndex = choices.indexOf(correct);
-    return { prompt: item.headword, reading: `${item.reading} (${item.meaningsIt[0]})`, choices, correctIndex, itemId: item.id };
-  }
-
-  buildNextVerbConjugationQuestion(items: VerbItem[], choicesCount = 4, excludeIds: string[] = []): QuizQuestion {
-    const allowedKeys = ['masu','masen','mashita','masenDeshita','te','plain','plainNeg','plainPast','plainPastNeg'];
-    const validItems = items.filter((x) => x.forms && Object.keys(x.forms).some((k) => allowedKeys.includes(k)));
-    const pool = validItems.filter((x) => !excludeIds.includes(x.id));
-    const pickFrom = pool.length > 0 ? pool : validItems;
-    if (pickFrom.length < choicesCount) {
-      throw new Error(`Servono almeno ${choicesCount} verbi per fare multiple choice.`);
-    }
-    const item = pickFrom[Math.floor(Math.random() * pickFrom.length)];
-    const formKeys = (Object.keys(item.forms!) as (keyof VerbForms)[])
-      .filter((k) =>
-        ['masu','masen','mashita','masenDeshita','te','plain','plainNeg','plainPast','plainPastNeg'].includes(k as string)
-      )
-      .filter((k) => !!item.forms![k]);
-    if (formKeys.length === 0) {
-      throw new Error('Nessuna forma disponibile per il verbo selezionato.');
-    }
-    const targetKey = formKeys[Math.floor(Math.random() * formKeys.length)];
-    const correct = item.forms![targetKey] as string;
-    const distractors = shuffle(
-      validItems
-        .filter((x) => x.id !== item.id)
-        .map((x) => x.forms ? x.forms[targetKey] : undefined)
-    )
-      .filter((m): m is string => typeof m === 'string')
-      .filter((m, idx, self) => self.indexOf(m) === idx && m !== correct)
-      .slice(0, choicesCount - 1);
-    const choices = shuffle([correct, ...distractors]);
-    const correctIndex = choices.indexOf(correct);
-    const labelMap: Record<keyof VerbForms, string> = {
-      masu: 'presente',
-      masen: 'presente negativo',
-      mashita: 'passato',
-      masenDeshita: 'passato negativo',
-      te: 'forma て',
-      plain: 'presente',
-      plainNeg: 'presente negativo',
-      plainPast: 'passato',
-      plainPastNeg: 'passato negativo',
-    };
-    const prompt = `${labelMap[targetKey]} di ${item.headword}`;
-    return { prompt, reading: `${item.reading} (${item.meaningsIt[0]})`, choices, correctIndex, itemId: item.id };
-  }
-
-  buildNextKanjiQuestion(items: KanjiItem[], choicesCount = 4, excludeIds: string[] = [], allowedTypes: Array<'meaning' | 'kun' | 'on'> = ['meaning', 'kun', 'on']): QuizQuestion {
+  buildNextKanjiQuestion(
+    items: KanjiItem[],
+    choicesCount = 4,
+    excludeIds: string[] = [],
+    allowedTypes: KanjiQuestionType[] = ['meaning', 'kun', 'on', 'parole']
+  ): QuizQuestion {
     if (items.length < choicesCount) {
       throw new Error(`Servono almeno ${choicesCount} kanji per fare multiple choice.`);
     }
 
-    const pool = items.filter((x) => !excludeIds.includes(String(x.id)));
+    const pool = items.filter((x) => !excludeIds.includes(String(x.numero)));
     const pickFrom = pool.length > 0 ? pool : items;
 
     for (const item of shuffle(pickFrom)) {
-      const validKinds: Array<'meaning' | 'kun' | 'on'> = [];
+      const validKinds: KanjiQuestionType[] = [];
+
       const meaningDistractors = shuffle(
         items
-          .filter((x) => x.id !== item.id)
-          .map((x) => x.significato)
-      ).filter((m, idx, self) => self.indexOf(m) === idx && m !== item.significato);
+          .filter((x) => x.numero !== item.numero)
+          .flatMap((x) => x.significato)
+      ).filter((m, idx, self) => self.indexOf(m) === idx && !item.significato.includes(m));
 
       if (allowedTypes.includes('meaning') && meaningDistractors.length >= choicesCount - 1) {
         validKinds.push('meaning');
       }
 
       const kunDistractors = shuffle(
-        items
-          .filter((x) => x.id !== item.id)
-          .flatMap((x) => x['lettura kun'] ?? [])
-          .map((reading) => this.formatKanjiReading(reading))
+        items.filter((x) => x.numero !== item.numero).flatMap((x) => x.lettura_kun ?? [])
       ).filter((m, idx, self) => self.indexOf(m) === idx);
 
-      if (allowedTypes.includes('kun') && (item['lettura kun']?.length ?? 0) > 0 && kunDistractors.length >= choicesCount - 1) {
+      if (
+        allowedTypes.includes('kun') &&
+        (item.lettura_kun?.length ?? 0) > 0 &&
+        kunDistractors.length >= choicesCount - 1
+      ) {
         validKinds.push('kun');
       }
 
       const onDistractors = shuffle(
-        items
-          .filter((x) => x.id !== item.id)
-          .flatMap((x) => x['lettura on'] ?? [])
-          .map((reading) => this.formatKanjiReading(reading))
+        items.filter((x) => x.numero !== item.numero).flatMap((x) => x.lettura_on ?? [])
       ).filter((m, idx, self) => self.indexOf(m) === idx);
 
-      if (allowedTypes.includes('on') && (item['lettura on']?.length ?? 0) > 0 && onDistractors.length >= choicesCount - 1) {
+      if (
+        allowedTypes.includes('on') &&
+        (item.lettura_on?.length ?? 0) > 0 &&
+        onDistractors.length >= choicesCount - 1
+      ) {
         validKinds.push('on');
+      }
+
+      const paroleDistractors = shuffle(
+        items
+          .filter((x) => x.numero !== item.numero)
+          .flatMap((x) => x.esempi ?? [])
+          .map((esempio) => this.formatEsempio(esempio))
+      ).filter((m, idx, self) => self.indexOf(m) === idx);
+
+      if (
+        allowedTypes.includes('parole') &&
+        (item.esempi?.length ?? 0) > 0 &&
+        paroleDistractors.length >= choicesCount - 1
+      ) {
+        validKinds.push('parole');
       }
 
       if (validKinds.length === 0) {
@@ -247,22 +88,35 @@ export class QuizService {
       }
 
       const kind = validKinds[Math.floor(Math.random() * validKinds.length)];
+
       if (kind === 'meaning') {
-        const correct = item.significato;
+        const correct = item.significato[Math.floor(Math.random() * item.significato.length)];
         const choices = shuffle([correct, ...meaningDistractors.slice(0, choicesCount - 1)]);
         return {
           prompt: item.kanji,
           reading: 'Scegli il significato',
           choices,
           correctIndex: choices.indexOf(correct),
-          itemId: String(item.id),
+          itemId: String(item.numero),
         };
       }
 
-      const readings = kind === 'kun' ? item['lettura kun'] : item['lettura on'];
-      const correct = this.formatKanjiReading(
-        readings[Math.floor(Math.random() * readings.length)]
-      );
+      if (kind === 'parole') {
+        const esempio = item.esempi[Math.floor(Math.random() * item.esempi.length)];
+        const correct = this.formatEsempio(esempio);
+        const distractors = paroleDistractors.filter((m) => m !== correct).slice(0, choicesCount - 1);
+        const choices = shuffle([correct, ...distractors]);
+        return {
+          prompt: item.kanji,
+          reading: 'Scegli una parola che usa questo kanji',
+          choices,
+          correctIndex: choices.indexOf(correct),
+          itemId: String(item.numero),
+        };
+      }
+
+      const readings = kind === 'kun' ? item.lettura_kun : item.lettura_on;
+      const correct = readings[Math.floor(Math.random() * readings.length)];
       const distractors = (kind === 'kun' ? kunDistractors : onDistractors)
         .filter((m) => m !== correct)
         .slice(0, choicesCount - 1);
@@ -273,10 +127,10 @@ export class QuizService {
         reading: kind === 'kun' ? 'Scegli la lettura kun' : 'Scegli la lettura on',
         choices,
         correctIndex: choices.indexOf(correct),
-        itemId: String(item.id),
+        itemId: String(item.numero),
       };
     }
 
-    throw new Error('Non ci sono abbastanza letture o significati distinti per generare il quiz kanji.');
+    throw new Error('Non ci sono abbastanza letture, significati o parole distinti per generare il quiz.');
   }
 }

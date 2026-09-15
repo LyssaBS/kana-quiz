@@ -1,10 +1,9 @@
 import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { RouterModule } from '@angular/router';
 import { MultiSelect } from 'primeng/multiselect';
 import { DataService } from '../../../core/data.service';
-import { QuizService } from '../../../core/quiz.service';
+import { QuizService, KanjiQuestionType } from '../../../core/quiz.service';
 import { KanjiItem, QuizQuestion } from '../../../core/models';
 
 type FeedbackState =
@@ -12,12 +11,10 @@ type FeedbackState =
   | { status: 'correct'; chosenIndex: number }
   | { status: 'wrong'; chosenIndex: number; correctIndex: number };
 
-type KanjiQuestionType = 'meaning' | 'on' | 'kun';
-
 @Component({
   selector: 'app-kanji-quiz',
   standalone: true,
-  imports: [CommonModule, FormsModule, RouterModule, MultiSelect],
+  imports: [CommonModule, FormsModule, MultiSelect],
   templateUrl: './kanji-quiz.html',
 })
 export class KanjiQuizComponent implements OnInit {
@@ -31,8 +28,9 @@ export class KanjiQuizComponent implements OnInit {
     { label: 'Significato', value: 'meaning' },
     { label: 'Lettura on', value: 'on' },
     { label: 'Lettura kun', value: 'kun' },
+    { label: 'Parole', value: 'parole' },
   ];
-  selectedTypes: KanjiQuestionType[] = ['meaning', 'on', 'kun'];
+  selectedTypes: KanjiQuestionType[] = ['meaning', 'on', 'kun', 'parole'];
   question: QuizQuestion | null = null;
   feedback: FeedbackState = { status: 'idle' };
   recentIds: string[] = [];

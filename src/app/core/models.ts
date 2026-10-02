@@ -12,9 +12,13 @@ export interface KanjiEsempio {
   significato: string;
 }
 
+export type KanjiLevel = 'N5' | 'N4';
+
 export interface KanjiItem {
   numero: number;
   lezione: number;
+  livello: KanjiLevel;
+  titolo_lezione?: string;
   kanji: string;
   significato: string[];
   lettura_on: string[];

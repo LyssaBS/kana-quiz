@@ -2,6 +2,7 @@
   {
     "numero": 1,
     "lezione": 1,
+    "livello": "N5",
     "kanji": "山",
     "significato": [
       "montagna"
@@ -33,6 +34,7 @@
   {
     "numero": 2,
     "lezione": 1,
+    "livello": "N5",
     "kanji": "川",
     "significato": [
       "fiume"
@@ -64,6 +66,7 @@
   {
     "numero": 3,
     "lezione": 1,
+    "livello": "N5",
     "kanji": "田",
     "significato": [
       "risaia"
@@ -100,6 +103,7 @@
   {
     "numero": 4,
     "lezione": 1,
+    "livello": "N5",
     "kanji": "日",
     "significato": [
       "sole",
@@ -140,6 +144,7 @@
   {
     "numero": 5,
     "lezione": 1,
+    "livello": "N5",
     "kanji": "月",
     "significato": [
       "luna",
@@ -178,6 +183,7 @@
   {
     "numero": 6,
     "lezione": 1,
+    "livello": "N5",
     "kanji": "火",
     "significato": [
       "fuoco"
@@ -214,6 +220,7 @@
   {
     "numero": 7,
     "lezione": 1,
+    "livello": "N5",
     "kanji": "水",
     "significato": [
       "acqua"
@@ -250,6 +257,7 @@
   {
     "numero": 8,
     "lezione": 1,
+    "livello": "N5",
     "kanji": "木",
     "significato": [
       "albero"
@@ -276,6 +284,7 @@
   {
     "numero": 9,
     "lezione": 1,
+    "livello": "N5",
     "kanji": "金",
     "significato": [
       "oro",
@@ -308,6 +317,7 @@
   {
     "numero": 10,
     "lezione": 1,
+    "livello": "N5",
     "kanji": "土",
     "significato": [
       "terra",
@@ -341,6 +351,7 @@
   {
     "numero": 11,
     "lezione": 2,
+    "livello": "N5",
     "kanji": "一",
     "significato": [
       "uno"
@@ -378,6 +389,7 @@
   {
     "numero": 12,
     "lezione": 2,
+    "livello": "N5",
     "kanji": "二",
     "significato": [
       "due"
@@ -414,6 +426,7 @@
   {
     "numero": 13,
     "lezione": 2,
+    "livello": "N5",
     "kanji": "三",
     "significato": [
       "tre"
@@ -450,6 +463,7 @@
   {
     "numero": 14,
     "lezione": 2,
+    "livello": "N5",
     "kanji": "四",
     "significato": [
       "quattro"
@@ -488,6 +502,7 @@
   {
     "numero": 15,
     "lezione": 2,
+    "livello": "N5",
     "kanji": "五",
     "significato": [
       "cinque"
@@ -524,6 +539,7 @@
   {
     "numero": 16,
     "lezione": 2,
+    "livello": "N5",
     "kanji": "六",
     "significato": [
       "sei"
@@ -561,6 +577,7 @@
   {
     "numero": 17,
     "lezione": 2,
+    "livello": "N5",
     "kanji": "七",
     "significato": [
       "sette"
@@ -597,6 +614,7 @@
   {
     "numero": 18,
     "lezione": 2,
+    "livello": "N5",
     "kanji": "八",
     "significato": [
       "otto"
@@ -634,6 +652,7 @@
   {
     "numero": 19,
     "lezione": 2,
+    "livello": "N5",
     "kanji": "九",
     "significato": [
       "nove"
@@ -671,6 +690,7 @@
   {
     "numero": 20,
     "lezione": 2,
+    "livello": "N5",
     "kanji": "十",
     "significato": [
       "dieci"
@@ -709,6 +729,7 @@
   {
     "numero": 21,
     "lezione": 3,
+    "livello": "N5",
     "kanji": "百",
     "significato": [
       "cento"
@@ -745,6 +766,7 @@
   {
     "numero": 22,
     "lezione": 3,
+    "livello": "N5",
     "kanji": "千",
     "significato": [
       "mille"
@@ -782,6 +804,7 @@
   {
     "numero": 23,
     "lezione": 3,
+    "livello": "N5",
     "kanji": "万",
     "significato": [
       "diecimila"
@@ -817,6 +840,7 @@
   {
     "numero": 24,
     "lezione": 3,
+    "livello": "N5",
     "kanji": "円",
     "significato": [
       "cerchio",
@@ -849,6 +873,7 @@
   {
     "numero": 25,
     "lezione": 3,
+    "livello": "N5",
     "kanji": "年",
     "significato": [
       "anno",
@@ -886,6 +911,7 @@
   {
     "numero": 26,
     "lezione": 3,
+    "livello": "N5",
     "kanji": "上",
     "significato": [
       "sopra"
@@ -923,6 +949,7 @@
   {
     "numero": 27,
     "lezione": 3,
+    "livello": "N5",
     "kanji": "下",
     "significato": [
       "sotto"
@@ -961,6 +988,7 @@
   {
     "numero": 28,
     "lezione": 3,
+    "livello": "N5",
     "kanji": "中",
     "significato": [
       "dentro",
@@ -999,6 +1027,7 @@
   {
     "numero": 29,
     "lezione": 3,
+    "livello": "N5",
     "kanji": "半",
     "significato": [
       "metà"
@@ -1035,6 +1064,7 @@
   {
     "numero": 30,
     "lezione": 3,
+    "livello": "N5",
     "kanji": "分",
     "significato": [
       "dividere",
@@ -1076,6 +1106,7 @@
   {
     "numero": 31,
     "lezione": 4,
+    "livello": "N5",
     "kanji": "人",
     "significato": [
       "persona"
@@ -1113,6 +1144,7 @@
   {
     "numero": 32,
     "lezione": 4,
+    "livello": "N5",
     "kanji": "子",
     "significato": [
       "bambino"
@@ -1149,6 +1181,7 @@
   {
     "numero": 33,
     "lezione": 4,
+    "livello": "N5",
     "kanji": "女",
     "significato": [
       "donna"
@@ -1180,6 +1213,7 @@
   {
     "numero": 34,
     "lezione": 4,
+    "livello": "N5",
     "kanji": "男",
     "significato": [
       "uomo"
@@ -1217,6 +1251,7 @@
   {
     "numero": 35,
     "lezione": 4,
+    "livello": "N5",
     "kanji": "目",
     "significato": [
       "occhio"
@@ -1253,6 +1288,7 @@
   {
     "numero": 36,
     "lezione": 4,
+    "livello": "N5",
     "kanji": "口",
     "significato": [
       "bocca"
@@ -1289,6 +1325,7 @@
   {
     "numero": 37,
     "lezione": 4,
+    "livello": "N5",
     "kanji": "耳",
     "significato": [
       "orecchio"
@@ -1315,6 +1352,7 @@
   {
     "numero": 38,
     "lezione": 4,
+    "livello": "N5",
     "kanji": "手",
     "significato": [
       "mano"
@@ -1351,6 +1389,7 @@
   {
     "numero": 39,
     "lezione": 4,
+    "livello": "N5",
     "kanji": "足",
     "significato": [
       "gamba",
@@ -1389,6 +1428,7 @@
   {
     "numero": 40,
     "lezione": 4,
+    "livello": "N5",
     "kanji": "力",
     "significato": [
       "forza"
@@ -1421,6 +1461,7 @@
   {
     "numero": 41,
     "lezione": 5,
+    "livello": "N5",
     "kanji": "父",
     "significato": [
       "padre"
@@ -1452,6 +1493,7 @@
   {
     "numero": 42,
     "lezione": 5,
+    "livello": "N5",
     "kanji": "母",
     "significato": [
       "madre"
@@ -1488,6 +1530,7 @@
   {
     "numero": 43,
     "lezione": 5,
+    "livello": "N5",
     "kanji": "先",
     "significato": [
       "prima",
@@ -1521,6 +1564,7 @@
   {
     "numero": 44,
     "lezione": 5,
+    "livello": "N5",
     "kanji": "生",
     "significato": [
       "nascere",
@@ -1559,6 +1603,7 @@
   {
     "numero": 45,
     "lezione": 5,
+    "livello": "N5",
     "kanji": "学",
     "significato": [
       "studiare"
@@ -1596,6 +1641,7 @@
   {
     "numero": 46,
     "lezione": 5,
+    "livello": "N5",
     "kanji": "校",
     "significato": [
       "scuola"
@@ -1630,6 +1676,7 @@
   {
     "numero": 47,
     "lezione": 5,
+    "livello": "N5",
     "kanji": "友",
     "significato": [
       "amico"
@@ -1661,6 +1708,7 @@
   {
     "numero": 48,
     "lezione": 5,
+    "livello": "N5",
     "kanji": "本",
     "significato": [
       "libro"
@@ -1699,6 +1747,7 @@
   {
     "numero": 49,
     "lezione": 5,
+    "livello": "N5",
     "kanji": "毎",
     "significato": [
       "ogni"
@@ -1733,6 +1782,7 @@
   {
     "numero": 50,
     "lezione": 5,
+    "livello": "N5",
     "kanji": "何",
     "significato": [
       "cosa"
@@ -1768,6 +1818,7 @@
   {
     "numero": 51,
     "lezione": 6,
+    "livello": "N5",
     "kanji": "前",
     "significato": [
       "davanti",
@@ -1800,6 +1851,7 @@
   {
     "numero": 52,
     "lezione": 6,
+    "livello": "N5",
     "kanji": "後",
     "significato": [
       "dietro",
@@ -1839,6 +1891,7 @@
   {
     "numero": 53,
     "lezione": 6,
+    "livello": "N5",
     "kanji": "外",
     "significato": [
       "fuori"
@@ -1865,6 +1918,7 @@
   {
     "numero": 54,
     "lezione": 6,
+    "livello": "N5",
     "kanji": "左",
     "significato": [
       "sinistra"
@@ -1896,6 +1950,7 @@
   {
     "numero": 55,
     "lezione": 6,
+    "livello": "N5",
     "kanji": "右",
     "significato": [
       "destra"
@@ -1933,6 +1988,7 @@
   {
     "numero": 56,
     "lezione": 6,
+    "livello": "N5",
     "kanji": "東",
     "significato": [
       "est"
@@ -1969,6 +2025,7 @@
   {
     "numero": 57,
     "lezione": 6,
+    "livello": "N5",
     "kanji": "西",
     "significato": [
       "ovest"
@@ -2007,6 +2064,7 @@
   {
     "numero": 58,
     "lezione": 6,
+    "livello": "N5",
     "kanji": "南",
     "significato": [
       "sud"
@@ -2043,6 +2101,7 @@
   {
     "numero": 59,
     "lezione": 6,
+    "livello": "N5",
     "kanji": "北",
     "significato": [
       "nord"
@@ -2080,6 +2139,7 @@
   {
     "numero": 60,
     "lezione": 6,
+    "livello": "N5",
     "kanji": "名",
     "significato": [
       "nome"
@@ -2116,6 +2176,7 @@
   {
     "numero": 61,
     "lezione": 7,
+    "livello": "N5",
     "kanji": "牛",
     "significato": [
       "mucca",
@@ -2153,6 +2214,7 @@
   {
     "numero": 62,
     "lezione": 7,
+    "livello": "N5",
     "kanji": "馬",
     "significato": [
       "cavallo"
@@ -2189,6 +2251,7 @@
   {
     "numero": 63,
     "lezione": 7,
+    "livello": "N5",
     "kanji": "魚",
     "significato": [
       "pesce"
@@ -2220,6 +2283,7 @@
   {
     "numero": 64,
     "lezione": 7,
+    "livello": "N5",
     "kanji": "貝",
     "significato": [
       "mollusco",
@@ -2245,6 +2309,7 @@
   {
     "numero": 65,
     "lezione": 7,
+    "livello": "N5",
     "kanji": "雨",
     "significato": [
       "pioggia"
@@ -2276,6 +2341,7 @@
   {
     "numero": 66,
     "lezione": 7,
+    "livello": "N5",
     "kanji": "天",
     "significato": [
       "cielo"
@@ -2305,6 +2371,7 @@
   {
     "numero": 67,
     "lezione": 7,
+    "livello": "N5",
     "kanji": "気",
     "significato": [
       "spirito",
@@ -2340,6 +2407,7 @@
   {
     "numero": 68,
     "lezione": 7,
+    "livello": "N5",
     "kanji": "車",
     "significato": [
       "auto"
@@ -2371,6 +2439,7 @@
   {
     "numero": 69,
     "lezione": 7,
+    "livello": "N5",
     "kanji": "門",
     "significato": [
       "cancello",
@@ -2401,6 +2470,7 @@
   {
     "numero": 70,
     "lezione": 7,
+    "livello": "N5",
     "kanji": "午",
     "significato": [
       "mezzogiorno"
@@ -2425,6 +2495,7 @@
   {
     "numero": 71,
     "lezione": 8,
+    "livello": "N5",
     "kanji": "大",
     "significato": [
       "grande"
@@ -2462,6 +2533,7 @@
   {
     "numero": 72,
     "lezione": 8,
+    "livello": "N5",
     "kanji": "小",
     "significato": [
       "piccolo"
@@ -2499,6 +2571,7 @@
   {
     "numero": 73,
     "lezione": 8,
+    "livello": "N5",
     "kanji": "高",
     "significato": [
       "alto",
@@ -2531,6 +2604,7 @@
   {
     "numero": 74,
     "lezione": 8,
+    "livello": "N5",
     "kanji": "安",
     "significato": [
       "economico",
@@ -2563,6 +2637,7 @@
   {
     "numero": 75,
     "lezione": 8,
+    "livello": "N5",
     "kanji": "新",
     "significato": [
       "nuovo"
@@ -2599,6 +2674,7 @@
   {
     "numero": 76,
     "lezione": 8,
+    "livello": "N5",
     "kanji": "古",
     "significato": [
       "vecchio"
@@ -2625,6 +2701,7 @@
   {
     "numero": 77,
     "lezione": 8,
+    "livello": "N5",
     "kanji": "長",
     "significato": [
       "lungo",
@@ -2662,6 +2739,7 @@
   {
     "numero": 78,
     "lezione": 8,
+    "livello": "N5",
     "kanji": "多",
     "significato": [
       "molto",
@@ -2694,6 +2772,7 @@
   {
     "numero": 79,
     "lezione": 8,
+    "livello": "N5",
     "kanji": "少",
     "significato": [
       "poco"
@@ -2731,6 +2810,7 @@
   {
     "numero": 80,
     "lezione": 8,
+    "livello": "N5",
     "kanji": "早",
     "significato": [
       "presto"
@@ -2762,6 +2842,7 @@
   {
     "numero": 81,
     "lezione": 9,
+    "livello": "N5",
     "kanji": "行",
     "significato": [
       "andare"
@@ -2800,6 +2881,7 @@
   {
     "numero": 82,
     "lezione": 9,
+    "livello": "N5",
     "kanji": "来",
     "significato": [
       "venire"
@@ -2837,6 +2919,7 @@
   {
     "numero": 83,
     "lezione": 9,
+    "livello": "N5",
     "kanji": "食",
     "significato": [
       "mangiare"
@@ -2873,6 +2956,7 @@
   {
     "numero": 84,
     "lezione": 9,
+    "livello": "N5",
     "kanji": "見",
     "significato": [
       "vedere"
@@ -2909,6 +2993,7 @@
   {
     "numero": 85,
     "lezione": 9,
+    "livello": "N5",
     "kanji": "入",
     "significato": [
       "entrare",
@@ -2947,6 +3032,7 @@
   {
     "numero": 86,
     "lezione": 9,
+    "livello": "N5",
     "kanji": "出",
     "significato": [
       "uscire",
@@ -2986,6 +3072,7 @@
   {
     "numero": 87,
     "lezione": 9,
+    "livello": "N5",
     "kanji": "立",
     "significato": [
       "stare in piedi"
@@ -3018,6 +3105,7 @@
   {
     "numero": 88,
     "lezione": 9,
+    "livello": "N5",
     "kanji": "書",
     "significato": [
       "scrivere",
@@ -3055,6 +3143,7 @@
   {
     "numero": 89,
     "lezione": 9,
+    "livello": "N5",
     "kanji": "言",
     "significato": [
       "dire"
@@ -3087,6 +3176,7 @@
   {
     "numero": 90,
     "lezione": 9,
+    "livello": "N5",
     "kanji": "飲",
     "significato": [
       "bere"
@@ -3118,6 +3208,7 @@
   {
     "numero": 91,
     "lezione": 10,
+    "livello": "N5",
     "kanji": "話",
     "significato": [
       "parlare"
@@ -3155,6 +3246,7 @@
   {
     "numero": 92,
     "lezione": 10,
+    "livello": "N5",
     "kanji": "読",
     "significato": [
       "leggere"
@@ -3181,6 +3273,7 @@
   {
     "numero": 93,
     "lezione": 10,
+    "livello": "N5",
     "kanji": "語",
     "significato": [
       "parola",
@@ -3213,6 +3306,7 @@
   {
     "numero": 94,
     "lezione": 10,
+    "livello": "N5",
     "kanji": "間",
     "significato": [
       "intervallo",
@@ -3251,6 +3345,7 @@
   {
     "numero": 95,
     "lezione": 10,
+    "livello": "N5",
     "kanji": "聞",
     "significato": [
       "ascoltare"
@@ -3283,6 +3378,7 @@
   {
     "numero": 96,
     "lezione": 10,
+    "livello": "N5",
     "kanji": "買",
     "significato": [
       "comprare"
@@ -3314,6 +3410,7 @@
   {
     "numero": 97,
     "lezione": 10,
+    "livello": "N5",
     "kanji": "休",
     "significato": [
       "riposare"
@@ -3350,6 +3447,7 @@
   {
     "numero": 98,
     "lezione": 10,
+    "livello": "N5",
     "kanji": "時",
     "significato": [
       "tempo",
@@ -3387,6 +3485,7 @@
   {
     "numero": 99,
     "lezione": 10,
+    "livello": "N5",
     "kanji": "週",
     "significato": [
       "settimana"
@@ -3421,6 +3520,7 @@
   {
     "numero": 100,
     "lezione": 10,
+    "livello": "N5",
     "kanji": "道",
     "significato": [
       "strada",
@@ -3458,6 +3558,7 @@
   {
     "numero": 101,
     "lezione": 11,
+    "livello": "N5",
     "kanji": "今",
     "significato": [
       "ora",
@@ -3495,6 +3596,7 @@
   {
     "numero": 102,
     "lezione": 11,
+    "livello": "N5",
     "kanji": "会",
     "significato": [
       "incontrare"
@@ -3531,6 +3633,7 @@
   {
     "numero": 103,
     "lezione": 11,
+    "livello": "N5",
     "kanji": "社",
     "significato": [
       "azienda",
@@ -3569,6 +3672,7 @@
   {
     "numero": 104,
     "lezione": 11,
+    "livello": "N5",
     "kanji": "店",
     "significato": [
       "negozio"
@@ -3600,6 +3704,7 @@
   {
     "numero": 105,
     "lezione": 11,
+    "livello": "N5",
     "kanji": "駅",
     "significato": [
       "stazione"
@@ -3629,6 +3734,7 @@
   {
     "numero": 106,
     "lezione": 11,
+    "livello": "N5",
     "kanji": "花",
     "significato": [
       "fiore"
@@ -3665,6 +3771,7 @@
   {
     "numero": 107,
     "lezione": 11,
+    "livello": "N5",
     "kanji": "国",
     "significato": [
       "paese",
@@ -3703,6 +3810,7 @@
   {
     "numero": 108,
     "lezione": 11,
+    "livello": "N5",
     "kanji": "白",
     "significato": [
       "bianco"
@@ -3735,6 +3843,7 @@
   {
     "numero": 109,
     "lezione": 11,
+    "livello": "N5",
     "kanji": "空",
     "significato": [
       "cielo",
@@ -3772,6 +3881,7 @@
   {
     "numero": 110,
     "lezione": 11,
+    "livello": "N5",
     "kanji": "電",
     "significato": [
       "elettricità"
@@ -3800,6 +3910,1642 @@
         "parola": "電池",
         "lettura": "でんち",
         "significato": "batteria"
+      }
+    ]
+  },
+  {
+    "numero": 111,
+    "lezione": 1,
+    "livello": "N4",
+    "titolo_lezione": "住所 (Indirizzo)",
+    "kanji": "住",
+    "significato": [
+      "vivere",
+      "abitare"
+    ],
+    "lettura_on": [
+      "ジュウ"
+    ],
+    "lettura_kun": [
+      "すむ"
+    ],
+    "esempi": [
+      {
+        "parola": "住む",
+        "lettura": "すむ",
+        "significato": "vivere"
+      },
+      {
+        "parola": "住民",
+        "lettura": "じゅうみん",
+        "significato": "abitante"
+      }
+    ]
+  },
+  {
+    "numero": 112,
+    "lezione": 1,
+    "livello": "N4",
+    "titolo_lezione": "住所 (Indirizzo)",
+    "kanji": "所",
+    "significato": [
+      "luogo",
+      "posto"
+    ],
+    "lettura_on": [
+      "ショ",
+      "ジョ"
+    ],
+    "lettura_kun": [
+      "ところ"
+    ],
+    "esempi": [
+      {
+        "parola": "所",
+        "lettura": "ところ",
+        "significato": "luogo"
+      },
+      {
+        "parola": "住所",
+        "lettura": "じゅうしょ",
+        "significato": "indirizzo"
+      },
+      {
+        "parola": "台所",
+        "lettura": "だいどころ",
+        "significato": "cucina"
+      },
+      {
+        "parola": "場所",
+        "lettura": "ばしょ",
+        "significato": "luogo"
+      }
+    ]
+  },
+  {
+    "numero": 113,
+    "lezione": 1,
+    "livello": "N4",
+    "titolo_lezione": "住所 (Indirizzo)",
+    "kanji": "京",
+    "significato": [
+      "capitale"
+    ],
+    "lettura_on": [
+      "キョウ"
+    ],
+    "lettura_kun": [],
+    "esempi": [
+      {
+        "parola": "東京",
+        "lettura": "とうきょう",
+        "significato": "Tokyo"
+      }
+    ]
+  },
+  {
+    "numero": 114,
+    "lezione": 1,
+    "livello": "N4",
+    "titolo_lezione": "住所 (Indirizzo)",
+    "kanji": "都",
+    "significato": [
+      "capitale",
+      "metropoli"
+    ],
+    "lettura_on": [
+      "ト",
+      "ツ"
+    ],
+    "lettura_kun": [
+      "みやこ"
+    ],
+    "esempi": [
+      {
+        "parola": "東京都",
+        "lettura": "とうきょうと",
+        "significato": "Metropoli di Tokyo"
+      },
+      {
+        "parola": "都合",
+        "lettura": "つごう",
+        "significato": "convenienza, circostanza"
+      },
+      {
+        "parola": "首都",
+        "lettura": "しゅと",
+        "significato": "capitale (di uno stato)"
+      }
+    ]
+  },
+  {
+    "numero": 115,
+    "lezione": 1,
+    "livello": "N4",
+    "titolo_lezione": "住所 (Indirizzo)",
+    "kanji": "府",
+    "significato": [
+      "prefettura urbana"
+    ],
+    "lettura_on": [
+      "フ"
+    ],
+    "lettura_kun": [],
+    "esempi": [
+      {
+        "parola": "京都府",
+        "lettura": "きょうとふ",
+        "significato": "Prefettura di Kyoto"
+      },
+      {
+        "parola": "大阪府",
+        "lettura": "おおさかふ",
+        "significato": "Prefettura di Osaka"
+      },
+      {
+        "parola": "政府",
+        "lettura": "せいふ",
+        "significato": "governo"
+      }
+    ]
+  },
+  {
+    "numero": 116,
+    "lezione": 1,
+    "livello": "N4",
+    "titolo_lezione": "住所 (Indirizzo)",
+    "kanji": "県",
+    "significato": [
+      "prefettura"
+    ],
+    "lettura_on": [
+      "ケン"
+    ],
+    "lettura_kun": [],
+    "esempi": [
+      {
+        "parola": "山口県",
+        "lettura": "やまぐちけん",
+        "significato": "Prefettura di Yamaguchi"
+      },
+      {
+        "parola": "県知事",
+        "lettura": "けんちじ",
+        "significato": "governatore di prefettura"
+      }
+    ]
+  },
+  {
+    "numero": 117,
+    "lezione": 1,
+    "livello": "N4",
+    "titolo_lezione": "住所 (Indirizzo)",
+    "kanji": "市",
+    "significato": [
+      "città"
+    ],
+    "lettura_on": [
+      "シ"
+    ],
+    "lettura_kun": [
+      "いち"
+    ],
+    "esempi": [
+      {
+        "parola": "京都市",
+        "lettura": "きょうとし",
+        "significato": "Città di Kyoto"
+      },
+      {
+        "parola": "市長",
+        "lettura": "しちょう",
+        "significato": "sindaco"
+      },
+      {
+        "parola": "市場",
+        "lettura": "いちば",
+        "significato": "mercato"
+      }
+    ]
+  },
+  {
+    "numero": 118,
+    "lezione": 1,
+    "livello": "N4",
+    "titolo_lezione": "住所 (Indirizzo)",
+    "kanji": "区",
+    "significato": [
+      "distretto, quartiere"
+    ],
+    "lettura_on": [
+      "ク"
+    ],
+    "lettura_kun": [],
+    "esempi": [
+      {
+        "parola": "北区",
+        "lettura": "きたく",
+        "significato": "Distretto di Kita"
+      },
+      {
+        "parola": "文京区",
+        "lettura": "ぶんきょうく",
+        "significato": "Distretto di Bunkyo"
+      },
+      {
+        "parola": "区長",
+        "lettura": "くちょう",
+        "significato": "capo del distretto"
+      }
+    ]
+  },
+  {
+    "numero": 119,
+    "lezione": 1,
+    "livello": "N4",
+    "titolo_lezione": "住所 (Indirizzo)",
+    "kanji": "町",
+    "significato": [
+      "città, quartiere"
+    ],
+    "lettura_on": [
+      "チョウ"
+    ],
+    "lettura_kun": [
+      "まち"
+    ],
+    "esempi": [
+      {
+        "parola": "町",
+        "lettura": "まち",
+        "significato": "città, quartiere"
+      },
+      {
+        "parola": "下町",
+        "lettura": "したまち",
+        "significato": "quartiere popolare"
+      },
+      {
+        "parola": "町長",
+        "lettura": "ちょうちょう",
+        "significato": "sindaco (di paese)"
+      }
+    ]
+  },
+  {
+    "numero": 120,
+    "lezione": 1,
+    "livello": "N4",
+    "titolo_lezione": "住所 (Indirizzo)",
+    "kanji": "村",
+    "significato": [
+      "villaggio"
+    ],
+    "lettura_on": [
+      "ソン"
+    ],
+    "lettura_kun": [
+      "むら"
+    ],
+    "esempi": [
+      {
+        "parola": "村",
+        "lettura": "むら",
+        "significato": "villaggio"
+      },
+      {
+        "parola": "村人",
+        "lettura": "むらびと",
+        "significato": "abitante del villaggio"
+      },
+      {
+        "parola": "村長",
+        "lettura": "そんちょう",
+        "significato": "capo villaggio"
+      }
+    ]
+  },
+  {
+    "numero": 121,
+    "lezione": 2,
+    "livello": "N4",
+    "titolo_lezione": "形容詞1 (Aggettivi 1)",
+    "kanji": "明",
+    "significato": [
+      "luminoso",
+      "chiaro"
+    ],
+    "lettura_on": [
+      "メイ"
+    ],
+    "lettura_kun": [
+      "あかるい"
+    ],
+    "esempi": [
+      {
+        "parola": "明るい",
+        "lettura": "あかるい",
+        "significato": "luminoso, allegro"
+      },
+      {
+        "parola": "明日",
+        "lettura": "あした/あす",
+        "significato": "domani"
+      },
+      {
+        "parola": "説明",
+        "lettura": "せつめい",
+        "significato": "spiegazione"
+      },
+      {
+        "parola": "発明",
+        "lettura": "はつめい",
+        "significato": "invenzione"
+      }
+    ]
+  },
+  {
+    "numero": 122,
+    "lezione": 2,
+    "livello": "N4",
+    "titolo_lezione": "形容詞1 (Aggettivi 1)",
+    "kanji": "暗",
+    "significato": [
+      "buio",
+      "oscuro"
+    ],
+    "lettura_on": [
+      "アン"
+    ],
+    "lettura_kun": [
+      "くらい"
+    ],
+    "esempi": [
+      {
+        "parola": "暗い",
+        "lettura": "くらい",
+        "significato": "buio"
+      },
+      {
+        "parola": "暗号",
+        "lettura": "あんごう",
+        "significato": "codice segreto"
+      }
+    ]
+  },
+  {
+    "numero": 123,
+    "lezione": 2,
+    "livello": "N4",
+    "titolo_lezione": "形容詞1 (Aggettivi 1)",
+    "kanji": "遠",
+    "significato": [
+      "lontano"
+    ],
+    "lettura_on": [
+      "エン"
+    ],
+    "lettura_kun": [
+      "とおい"
+    ],
+    "esempi": [
+      {
+        "parola": "遠い",
+        "lettura": "とおい",
+        "significato": "lontano"
+      },
+      {
+        "parola": "遠足",
+        "lettura": "えんそく",
+        "significato": "gita"
+      }
+    ]
+  },
+  {
+    "numero": 124,
+    "lezione": 2,
+    "livello": "N4",
+    "titolo_lezione": "形容詞1 (Aggettivi 1)",
+    "kanji": "近",
+    "significato": [
+      "vicino"
+    ],
+    "lettura_on": [
+      "キン"
+    ],
+    "lettura_kun": [
+      "ちかい"
+    ],
+    "esempi": [
+      {
+        "parola": "近い",
+        "lettura": "ちかい",
+        "significato": "vicino"
+      },
+      {
+        "parola": "近所",
+        "lettura": "きんじょ",
+        "significato": "vicinato"
+      },
+      {
+        "parola": "最近",
+        "lettura": "さいきん",
+        "significato": "recentemente"
+      }
+    ]
+  },
+  {
+    "numero": 125,
+    "lezione": 2,
+    "livello": "N4",
+    "titolo_lezione": "形容詞1 (Aggettivi 1)",
+    "kanji": "強",
+    "significato": [
+      "forte"
+    ],
+    "lettura_on": [
+      "キョウ"
+    ],
+    "lettura_kun": [
+      "つよい"
+    ],
+    "esempi": [
+      {
+        "parola": "強い",
+        "lettura": "つよい",
+        "significato": "forte"
+      },
+      {
+        "parola": "勉強する",
+        "lettura": "べんきょうする",
+        "significato": "studiare"
+      },
+      {
+        "parola": "強風",
+        "lettura": "きょうふう",
+        "significato": "vento forte"
+      }
+    ]
+  },
+  {
+    "numero": 126,
+    "lezione": 2,
+    "livello": "N4",
+    "titolo_lezione": "形容詞1 (Aggettivi 1)",
+    "kanji": "弱",
+    "significato": [
+      "debole"
+    ],
+    "lettura_on": [
+      "ジャク"
+    ],
+    "lettura_kun": [
+      "よわい"
+    ],
+    "esempi": [
+      {
+        "parola": "弱い",
+        "lettura": "よわい",
+        "significato": "debole"
+      },
+      {
+        "parola": "強弱",
+        "lettura": "きょうじゃく",
+        "significato": "forza e debolezza"
+      }
+    ]
+  },
+  {
+    "numero": 127,
+    "lezione": 2,
+    "livello": "N4",
+    "titolo_lezione": "形容詞1 (Aggettivi 1)",
+    "kanji": "重",
+    "significato": [
+      "pesante",
+      "importante"
+    ],
+    "lettura_on": [
+      "ジュウ"
+    ],
+    "lettura_kun": [
+      "おもい"
+    ],
+    "esempi": [
+      {
+        "parola": "重い",
+        "lettura": "おもい",
+        "significato": "pesante"
+      },
+      {
+        "parola": "重大な",
+        "lettura": "じゅうだいな",
+        "significato": "importante, serio"
+      },
+      {
+        "parola": "体重",
+        "lettura": "たいじゅう",
+        "significato": "peso corporeo"
+      }
+    ]
+  },
+  {
+    "numero": 128,
+    "lezione": 2,
+    "livello": "N4",
+    "titolo_lezione": "形容詞1 (Aggettivi 1)",
+    "kanji": "軽",
+    "significato": [
+      "leggero"
+    ],
+    "lettura_on": [
+      "ケイ"
+    ],
+    "lettura_kun": [
+      "かるい"
+    ],
+    "esempi": [
+      {
+        "parola": "軽い",
+        "lettura": "かるい",
+        "significato": "leggero"
+      },
+      {
+        "parola": "軽食",
+        "lettura": "けいしょく",
+        "significato": "spuntino"
+      }
+    ]
+  },
+  {
+    "numero": 129,
+    "lezione": 2,
+    "livello": "N4",
+    "titolo_lezione": "形容詞1 (Aggettivi 1)",
+    "kanji": "太",
+    "significato": [
+      "grasso",
+      "spesso"
+    ],
+    "lettura_on": [
+      "タイ"
+    ],
+    "lettura_kun": [
+      "ふとい"
+    ],
+    "esempi": [
+      {
+        "parola": "太い",
+        "lettura": "ふとい",
+        "significato": "grosso, spesso"
+      },
+      {
+        "parola": "太陽",
+        "lettura": "たいよう",
+        "significato": "sole"
+      }
+    ]
+  },
+  {
+    "numero": 130,
+    "lezione": 2,
+    "livello": "N4",
+    "titolo_lezione": "形容詞1 (Aggettivi 1)",
+    "kanji": "細",
+    "significato": [
+      "sottile",
+      "fine"
+    ],
+    "lettura_on": [
+      "サイ"
+    ],
+    "lettura_kun": [
+      "ほそい",
+      "こまかい"
+    ],
+    "esempi": [
+      {
+        "parola": "細い",
+        "lettura": "ほそい",
+        "significato": "sottile"
+      },
+      {
+        "parola": "細かい",
+        "lettura": "こまかい",
+        "significato": "minuto, fine"
+      },
+      {
+        "parola": "細工",
+        "lettura": "さいく",
+        "significato": "artigianato"
+      }
+    ]
+  },
+  {
+    "numero": 131,
+    "lezione": 3,
+    "livello": "N4",
+    "titolo_lezione": "形容詞2 (Aggettivi 2)",
+    "kanji": "特",
+    "significato": [
+      "speciale"
+    ],
+    "lettura_on": [
+      "トク",
+      "トッ"
+    ],
+    "lettura_kun": [],
+    "esempi": [
+      {
+        "parola": "特に",
+        "lettura": "とくに",
+        "significato": "specialmente"
+      },
+      {
+        "parola": "特別な",
+        "lettura": "とくべつな",
+        "significato": "speciale"
+      },
+      {
+        "parola": "特急",
+        "lettura": "とっきゅう",
+        "significato": "treno espresso limitato"
+      }
+    ]
+  },
+  {
+    "numero": 132,
+    "lezione": 3,
+    "livello": "N4",
+    "titolo_lezione": "形容詞2 (Aggettivi 2)",
+    "kanji": "別",
+    "significato": [
+      "separare",
+      "differente"
+    ],
+    "lettura_on": [
+      "ベツ"
+    ],
+    "lettura_kun": [
+      "わかれる"
+    ],
+    "esempi": [
+      {
+        "parola": "別れる",
+        "lettura": "わかれる",
+        "significato": "separarsi"
+      },
+      {
+        "parola": "別々に",
+        "lettura": "べつべつに",
+        "significato": "separatamente"
+      },
+      {
+        "parola": "区別する",
+        "lettura": "くべつする",
+        "significato": "distinguere"
+      },
+      {
+        "parola": "分別する",
+        "lettura": "ぶんべつする",
+        "significato": "classificare"
+      }
+    ]
+  },
+  {
+    "numero": 133,
+    "lezione": 3,
+    "livello": "N4",
+    "titolo_lezione": "形容詞2 (Aggettivi 2)",
+    "kanji": "有",
+    "significato": [
+      "esistere",
+      "avere"
+    ],
+    "lettura_on": [
+      "ユウ"
+    ],
+    "lettura_kun": [
+      "ある"
+    ],
+    "esempi": [
+      {
+        "parola": "有る",
+        "lettura": "ある",
+        "significato": "esistere, avere"
+      },
+      {
+        "parola": "有名な",
+        "lettura": "ゆうめいな",
+        "significato": "famoso"
+      },
+      {
+        "parola": "有料",
+        "lettura": "ゆうりょう",
+        "significato": "a pagamento"
+      }
+    ]
+  },
+  {
+    "numero": 134,
+    "lezione": 3,
+    "livello": "N4",
+    "titolo_lezione": "形容詞2 (Aggettivi 2)",
+    "kanji": "便",
+    "significato": [
+      "convenienza",
+      "posta"
+    ],
+    "lettura_on": [
+      "ベン",
+      "ビン"
+    ],
+    "lettura_kun": [],
+    "esempi": [
+      {
+        "parola": "便り",
+        "lettura": "たより",
+        "significato": "lettera, notizia"
+      },
+      {
+        "parola": "郵便局",
+        "lettura": "ゆうびんきょく",
+        "significato": "ufficio postale"
+      },
+      {
+        "parola": "船便",
+        "lettura": "ふなびん",
+        "significato": "posta via mare"
+      }
+    ]
+  },
+  {
+    "numero": 135,
+    "lezione": 3,
+    "livello": "N4",
+    "titolo_lezione": "形容詞2 (Aggettivi 2)",
+    "kanji": "利",
+    "significato": [
+      "profitto",
+      "beneficio"
+    ],
+    "lettura_on": [
+      "リ"
+    ],
+    "lettura_kun": [],
+    "esempi": [
+      {
+        "parola": "便利な",
+        "lettura": "べんりな",
+        "significato": "comodo"
+      },
+      {
+        "parola": "利用する",
+        "lettura": "りようする",
+        "significato": "utilizzare"
+      },
+      {
+        "parola": "利子",
+        "lettura": "りし",
+        "significato": "interesse (bancario)"
+      },
+      {
+        "parola": "有利な",
+        "lettura": "ゆうりな",
+        "significato": "vantaggioso"
+      }
+    ]
+  },
+  {
+    "numero": 136,
+    "lezione": 3,
+    "livello": "N4",
+    "titolo_lezione": "形容詞2 (Aggettivi 2)",
+    "kanji": "不",
+    "significato": [
+      "non-",
+      "negazione"
+    ],
+    "lettura_on": [
+      "フ",
+      "ブ"
+    ],
+    "lettura_kun": [],
+    "esempi": [
+      {
+        "parola": "不便な",
+        "lettura": "ふべんな",
+        "significato": "scomodo"
+      },
+      {
+        "parola": "不足する",
+        "lettura": "ふそくする",
+        "significato": "mancare, scarseggiare"
+      },
+      {
+        "parola": "不安な",
+        "lettura": "ふあんな",
+        "significato": "ansioso"
+      },
+      {
+        "parola": "不運な",
+        "lettura": "ふうんな",
+        "significato": "sfortunato"
+      }
+    ]
+  },
+  {
+    "numero": 137,
+    "lezione": 3,
+    "livello": "N4",
+    "titolo_lezione": "形容詞2 (Aggettivi 2)",
+    "kanji": "切",
+    "significato": [
+      "tagliare"
+    ],
+    "lettura_on": [
+      "セツ",
+      "セッ"
+    ],
+    "lettura_kun": [
+      "きる"
+    ],
+    "esempi": [
+      {
+        "parola": "切る",
+        "lettura": "きる",
+        "significato": "tagliare"
+      },
+      {
+        "parola": "切手",
+        "lettura": "きって",
+        "significato": "francobollo"
+      },
+      {
+        "parola": "大切な",
+        "lettura": "たいせつな",
+        "significato": "importante"
+      },
+      {
+        "parola": "親切な",
+        "lettura": "しんせつな",
+        "significato": "gentile"
+      }
+    ]
+  },
+  {
+    "numero": 138,
+    "lezione": 3,
+    "livello": "N4",
+    "titolo_lezione": "形容詞2 (Aggettivi 2)",
+    "kanji": "元",
+    "significato": [
+      "origine"
+    ],
+    "lettura_on": [
+      "ゲン",
+      "ガン"
+    ],
+    "lettura_kun": [
+      "もと"
+    ],
+    "esempi": [
+      {
+        "parola": "元気な",
+        "lettura": "げんきな",
+        "significato": "sano, energico"
+      },
+      {
+        "parola": "元日",
+        "lettura": "がんじつ",
+        "significato": "Capodanno"
+      },
+      {
+        "parola": "紀元前",
+        "lettura": "きげんぜん",
+        "significato": "avanti Cristo"
+      }
+    ]
+  },
+  {
+    "numero": 139,
+    "lezione": 3,
+    "livello": "N4",
+    "titolo_lezione": "形容詞2 (Aggettivi 2)",
+    "kanji": "好",
+    "significato": [
+      "piacere",
+      "amare"
+    ],
+    "lettura_on": [
+      "コウ"
+    ],
+    "lettura_kun": [
+      "すき"
+    ],
+    "esempi": [
+      {
+        "parola": "好きな",
+        "lettura": "すきな",
+        "significato": "preferito"
+      },
+      {
+        "parola": "好意",
+        "lettura": "こうい",
+        "significato": "affetto"
+      },
+      {
+        "parola": "好物",
+        "lettura": "こうぶつ",
+        "significato": "cibo preferito"
+      }
+    ]
+  },
+  {
+    "numero": 140,
+    "lezione": 3,
+    "livello": "N4",
+    "titolo_lezione": "形容詞2 (Aggettivi 2)",
+    "kanji": "急",
+    "significato": [
+      "fretta",
+      "improvviso"
+    ],
+    "lettura_on": [
+      "キュウ"
+    ],
+    "lettura_kun": [
+      "いそぐ"
+    ],
+    "esempi": [
+      {
+        "parola": "急に",
+        "lettura": "きゅうに",
+        "significato": "improvvisamente"
+      },
+      {
+        "parola": "特急",
+        "lettura": "とっきゅう",
+        "significato": "treno espresso limitato"
+      },
+      {
+        "parola": "急ぐ",
+        "lettura": "いそぐ",
+        "significato": "affrettarsi"
+      },
+      {
+        "parola": "急用",
+        "lettura": "きゅうよう",
+        "significato": "affare urgente"
+      }
+    ]
+  },
+  {
+    "numero": 141,
+    "lezione": 4,
+    "livello": "N4",
+    "titolo_lezione": "形容詞3 (Aggettivi 3)",
+    "kanji": "低",
+    "significato": [
+      "basso"
+    ],
+    "lettura_on": [
+      "テイ"
+    ],
+    "lettura_kun": [
+      "ひくい"
+    ],
+    "esempi": [
+      {
+        "parola": "低い",
+        "lettura": "ひくい",
+        "significato": "basso"
+      },
+      {
+        "parola": "低下する",
+        "lettura": "ていかする",
+        "significato": "diminuire"
+      },
+      {
+        "parola": "低気圧",
+        "lettura": "ていきあつ",
+        "significato": "bassa pressione atmosferica"
+      }
+    ]
+  },
+  {
+    "numero": 142,
+    "lezione": 4,
+    "livello": "N4",
+    "titolo_lezione": "形容詞3 (Aggettivi 3)",
+    "kanji": "広",
+    "significato": [
+      "spazioso",
+      "ampio"
+    ],
+    "lettura_on": [
+      "コウ"
+    ],
+    "lettura_kun": [
+      "ひろい"
+    ],
+    "esempi": [
+      {
+        "parola": "広い",
+        "lettura": "ひろい",
+        "significato": "spazioso"
+      },
+      {
+        "parola": "広場",
+        "lettura": "ひろば",
+        "significato": "piazza"
+      },
+      {
+        "parola": "広大な",
+        "lettura": "こうだいな",
+        "significato": "vasto"
+      }
+    ]
+  },
+  {
+    "numero": 143,
+    "lezione": 4,
+    "livello": "N4",
+    "titolo_lezione": "形容詞3 (Aggettivi 3)",
+    "kanji": "短",
+    "significato": [
+      "corto"
+    ],
+    "lettura_on": [
+      "タン"
+    ],
+    "lettura_kun": [
+      "みじかい"
+    ],
+    "esempi": [
+      {
+        "parola": "短い",
+        "lettura": "みじかい",
+        "significato": "corto"
+      },
+      {
+        "parola": "短時間",
+        "lettura": "たんじかん",
+        "significato": "breve tempo"
+      }
+    ]
+  },
+  {
+    "numero": 144,
+    "lezione": 4,
+    "livello": "N4",
+    "titolo_lezione": "形容詞3 (Aggettivi 3)",
+    "kanji": "良",
+    "significato": [
+      "buono"
+    ],
+    "lettura_on": [
+      "リョウ"
+    ],
+    "lettura_kun": [
+      "よい"
+    ],
+    "esempi": [
+      {
+        "parola": "良い",
+        "lettura": "よい",
+        "significato": "buono"
+      },
+      {
+        "parola": "良心",
+        "lettura": "りょうしん",
+        "significato": "coscienza"
+      }
+    ]
+  },
+  {
+    "numero": 145,
+    "lezione": 4,
+    "livello": "N4",
+    "titolo_lezione": "形容詞3 (Aggettivi 3)",
+    "kanji": "悪",
+    "significato": [
+      "cattivo",
+      "male"
+    ],
+    "lettura_on": [
+      "アク"
+    ],
+    "lettura_kun": [
+      "わるい"
+    ],
+    "esempi": [
+      {
+        "parola": "悪い",
+        "lettura": "わるい",
+        "significato": "cattivo"
+      },
+      {
+        "parola": "悪人",
+        "lettura": "あくにん",
+        "significato": "persona cattiva"
+      }
+    ]
+  },
+  {
+    "numero": 146,
+    "lezione": 4,
+    "livello": "N4",
+    "titolo_lezione": "形容詞3 (Aggettivi 3)",
+    "kanji": "正",
+    "significato": [
+      "corretto",
+      "giusto"
+    ],
+    "lettura_on": [
+      "セイ",
+      "ショウ"
+    ],
+    "lettura_kun": [
+      "ただしい"
+    ],
+    "esempi": [
+      {
+        "parola": "正しい",
+        "lettura": "ただしい",
+        "significato": "corretto, giusto"
+      },
+      {
+        "parola": "正月",
+        "lettura": "しょうがつ",
+        "significato": "Capodanno"
+      },
+      {
+        "parola": "正門",
+        "lettura": "せいもん",
+        "significato": "cancello principale"
+      }
+    ]
+  },
+  {
+    "numero": 147,
+    "lezione": 4,
+    "livello": "N4",
+    "titolo_lezione": "形容詞3 (Aggettivi 3)",
+    "kanji": "変",
+    "significato": [
+      "cambiare",
+      "strano"
+    ],
+    "lettura_on": [
+      "ヘン"
+    ],
+    "lettura_kun": [
+      "かわる"
+    ],
+    "esempi": [
+      {
+        "parola": "変わる",
+        "lettura": "かわる",
+        "significato": "cambiare"
+      },
+      {
+        "parola": "変な",
+        "lettura": "へんな",
+        "significato": "strano"
+      },
+      {
+        "parola": "大変な",
+        "lettura": "たいへんな",
+        "significato": "difficile, terribile"
+      },
+      {
+        "parola": "変化する",
+        "lettura": "へんかする",
+        "significato": "cambiare, trasformarsi"
+      }
+    ]
+  },
+  {
+    "numero": 148,
+    "lezione": 4,
+    "livello": "N4",
+    "titolo_lezione": "形容詞3 (Aggettivi 3)",
+    "kanji": "赤",
+    "significato": [
+      "rosso"
+    ],
+    "lettura_on": [
+      "セキ"
+    ],
+    "lettura_kun": [
+      "あか"
+    ],
+    "esempi": [
+      {
+        "parola": "赤い",
+        "lettura": "あかい",
+        "significato": "rosso"
+      },
+      {
+        "parola": "赤ちゃん",
+        "lettura": "あかちゃん",
+        "significato": "neonato"
+      },
+      {
+        "parola": "赤信号",
+        "lettura": "あかしんごう",
+        "significato": "semaforo rosso"
+      },
+      {
+        "parola": "赤道",
+        "lettura": "せきどう",
+        "significato": "equatore"
+      }
+    ]
+  },
+  {
+    "numero": 149,
+    "lezione": 4,
+    "livello": "N4",
+    "titolo_lezione": "形容詞3 (Aggettivi 3)",
+    "kanji": "青",
+    "significato": [
+      "blu",
+      "azzurro"
+    ],
+    "lettura_on": [
+      "セイ"
+    ],
+    "lettura_kun": [
+      "あお"
+    ],
+    "esempi": [
+      {
+        "parola": "青い",
+        "lettura": "あおい",
+        "significato": "blu"
+      },
+      {
+        "parola": "青空",
+        "lettura": "あおぞら",
+        "significato": "cielo azzurro"
+      },
+      {
+        "parola": "青春",
+        "lettura": "せいしゅん",
+        "significato": "giovinezza"
+      }
+    ]
+  },
+  {
+    "numero": 150,
+    "lezione": 4,
+    "livello": "N4",
+    "titolo_lezione": "形容詞3 (Aggettivi 3)",
+    "kanji": "黒",
+    "significato": [
+      "nero"
+    ],
+    "lettura_on": [
+      "コク"
+    ],
+    "lettura_kun": [
+      "くろ"
+    ],
+    "esempi": [
+      {
+        "parola": "黒い",
+        "lettura": "くろい",
+        "significato": "nero"
+      },
+      {
+        "parola": "真っ黒",
+        "lettura": "まっくろ",
+        "significato": "completamente nero"
+      }
+    ]
+  },
+  {
+    "numero": 151,
+    "lezione": 5,
+    "livello": "N4",
+    "titolo_lezione": "趣味 (Hobby)",
+    "kanji": "映",
+    "significato": [
+      "riflettere",
+      "proiettare"
+    ],
+    "lettura_on": [
+      "エイ"
+    ],
+    "lettura_kun": [
+      "うつす"
+    ],
+    "esempi": [
+      {
+        "parola": "映す",
+        "lettura": "うつす",
+        "significato": "riflettere, proiettare"
+      },
+      {
+        "parola": "映画",
+        "lettura": "えいが",
+        "significato": "film"
+      },
+      {
+        "parola": "映画館",
+        "lettura": "えいがかん",
+        "significato": "cinema"
+      }
+    ]
+  },
+  {
+    "numero": 152,
+    "lezione": 5,
+    "livello": "N4",
+    "titolo_lezione": "趣味 (Hobby)",
+    "kanji": "画",
+    "significato": [
+      "disegno",
+      "quadro"
+    ],
+    "lettura_on": [
+      "ガ",
+      "カク"
+    ],
+    "lettura_kun": [],
+    "esempi": [
+      {
+        "parola": "計画",
+        "lettura": "けいかく",
+        "significato": "piano, progetto"
+      },
+      {
+        "parola": "画家",
+        "lettura": "がか",
+        "significato": "pittore"
+      },
+      {
+        "parola": "日本画",
+        "lettura": "にほんが",
+        "significato": "pittura giapponese"
+      }
+    ]
+  },
+  {
+    "numero": 153,
+    "lezione": 5,
+    "livello": "N4",
+    "titolo_lezione": "趣味 (Hobby)",
+    "kanji": "音",
+    "significato": [
+      "suono"
+    ],
+    "lettura_on": [
+      "オン"
+    ],
+    "lettura_kun": [
+      "おと"
+    ],
+    "esempi": [
+      {
+        "parola": "音",
+        "lettura": "おと",
+        "significato": "suono"
+      },
+      {
+        "parola": "発音",
+        "lettura": "はつおん",
+        "significato": "pronuncia"
+      },
+      {
+        "parola": "高音",
+        "lettura": "こうおん",
+        "significato": "suono acuto"
+      }
+    ]
+  },
+  {
+    "numero": 154,
+    "lezione": 5,
+    "livello": "N4",
+    "titolo_lezione": "趣味 (Hobby)",
+    "kanji": "楽",
+    "significato": [
+      "divertente",
+      "facile"
+    ],
+    "lettura_on": [
+      "ガク",
+      "ラク"
+    ],
+    "lettura_kun": [
+      "たのしい"
+    ],
+    "esempi": [
+      {
+        "parola": "楽しい",
+        "lettura": "たのしい",
+        "significato": "divertente"
+      },
+      {
+        "parola": "音楽",
+        "lettura": "おんがく",
+        "significato": "musica"
+      },
+      {
+        "parola": "楽な",
+        "lettura": "らくな",
+        "significato": "facile, comodo"
+      }
+    ]
+  },
+  {
+    "numero": 155,
+    "lezione": 5,
+    "livello": "N4",
+    "titolo_lezione": "趣味 (Hobby)",
+    "kanji": "歌",
+    "significato": [
+      "canzone",
+      "cantare"
+    ],
+    "lettura_on": [
+      "カ"
+    ],
+    "lettura_kun": [
+      "うた",
+      "うたう"
+    ],
+    "esempi": [
+      {
+        "parola": "歌う",
+        "lettura": "うたう",
+        "significato": "cantare"
+      },
+      {
+        "parola": "歌手",
+        "lettura": "かしゅ",
+        "significato": "cantante"
+      }
+    ]
+  },
+  {
+    "numero": 156,
+    "lezione": 5,
+    "livello": "N4",
+    "titolo_lezione": "趣味 (Hobby)",
+    "kanji": "写",
+    "significato": [
+      "copiare",
+      "fotografare"
+    ],
+    "lettura_on": [
+      "シャ"
+    ],
+    "lettura_kun": [
+      "うつす"
+    ],
+    "esempi": [
+      {
+        "parola": "写真",
+        "lettura": "しゃしん",
+        "significato": "fotografia"
+      },
+      {
+        "parola": "写す",
+        "lettura": "うつす",
+        "significato": "copiare, fotografare"
+      }
+    ]
+  },
+  {
+    "numero": 157,
+    "lezione": 5,
+    "livello": "N4",
+    "titolo_lezione": "趣味 (Hobby)",
+    "kanji": "真",
+    "significato": [
+      "verità",
+      "vero"
+    ],
+    "lettura_on": [
+      "シン"
+    ],
+    "lettura_kun": [
+      "ま"
+    ],
+    "esempi": [
+      {
+        "parola": "真ん中",
+        "lettura": "まんなか",
+        "significato": "centro, mezzo"
+      },
+      {
+        "parola": "真っ白",
+        "lettura": "まっしろ",
+        "significato": "bianco candido"
+      },
+      {
+        "parola": "真実",
+        "lettura": "しんじつ",
+        "significato": "verità"
+      }
+    ]
+  },
+  {
+    "numero": 158,
+    "lezione": 5,
+    "livello": "N4",
+    "titolo_lezione": "趣味 (Hobby)",
+    "kanji": "旅",
+    "significato": [
+      "viaggio"
+    ],
+    "lettura_on": [
+      "リョ"
+    ],
+    "lettura_kun": [
+      "たび"
+    ],
+    "esempi": [
+      {
+        "parola": "旅行する",
+        "lettura": "りょこうする",
+        "significato": "viaggiare"
+      },
+      {
+        "parola": "旅館",
+        "lettura": "りょかん",
+        "significato": "ryokan (albergo giapponese)"
+      },
+      {
+        "parola": "旅",
+        "lettura": "たび",
+        "significato": "viaggio"
+      }
+    ]
+  },
+  {
+    "numero": 159,
+    "lezione": 5,
+    "livello": "N4",
+    "titolo_lezione": "趣味 (Hobby)",
+    "kanji": "世",
+    "significato": [
+      "mondo",
+      "epoca"
+    ],
+    "lettura_on": [
+      "セ",
+      "セイ"
+    ],
+    "lettura_kun": [
+      "よ"
+    ],
+    "esempi": [
+      {
+        "parola": "世話をする",
+        "lettura": "せわをする",
+        "significato": "prendersi cura di"
+      },
+      {
+        "parola": "世の中",
+        "lettura": "よのなか",
+        "significato": "il mondo, la società"
+      },
+      {
+        "parola": "21世紀",
+        "lettura": "にじゅういっせいき",
+        "significato": "21° secolo"
+      }
+    ]
+  },
+  {
+    "numero": 160,
+    "lezione": 5,
+    "livello": "N4",
+    "titolo_lezione": "趣味 (Hobby)",
+    "kanji": "界",
+    "significato": [
+      "confine",
+      "mondo"
+    ],
+    "lettura_on": [
+      "カイ"
+    ],
+    "lettura_kun": [],
+    "esempi": [
+      {
+        "parola": "世界",
+        "lettura": "せかい",
+        "significato": "mondo"
+      },
+      {
+        "parola": "政界",
+        "lettura": "せいかい",
+        "significato": "mondo politico"
       }
     ]
   }

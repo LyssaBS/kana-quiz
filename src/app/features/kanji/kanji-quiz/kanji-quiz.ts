@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { MultiSelect } from 'primeng/multiselect';
 import { DataService } from '../../../core/data.service';
 import { QuizService, KanjiQuestionType } from '../../../core/quiz.service';
-import { KanjiItem, QuizQuestion } from '../../../core/models';
+import { KanjiItem, KanjiLevel, QuizQuestion } from '../../../core/models';
 
 type FeedbackState =
   | { status: 'idle' }
@@ -18,12 +18,15 @@ type FeedbackState =
   templateUrl: './kanji-quiz.html',
 })
 export class KanjiQuizComponent implements OnInit {
-  readonly quickLessonRangeValue = -999;
   items: KanjiItem[] = [];
   allItems: KanjiItem[] = [];
-  availableLessons: number[] = [];
-  lessonOptions: { label: string; value: number }[] = [];
-  selectedLessons: number[] = [];
+
+  levelOptions: { label: string; value: KanjiLevel }[] = [];
+  selectedLevels: KanjiLevel[] = [];
+
+  lessonOptions: { label: string; value: string }[] = [];
+  selectedLessons: string[] = [];
+
   typeOptions: { label: string; value: KanjiQuestionType }[] = [
     { label: 'Significato', value: 'meaning' },
     { label: 'Lettura on', value: 'on' },
@@ -31,6 +34,7 @@ export class KanjiQuizComponent implements OnInit {
     { label: 'Parole', value: 'parole' },
   ];
   selectedTypes: KanjiQuestionType[] = ['meaning', 'on', 'kun', 'parole'];
+
   question: QuizQuestion | null = null;
   feedback: FeedbackState = { status: 'idle' };
   recentIds: string[] = [];
@@ -51,13 +55,10 @@ export class KanjiQuizComponent implements OnInit {
         return;
       }
 
-      this.availableLessons = Array.from(
-        new Set(this.allItems.map((x) => x.lezione).filter((x): x is number => typeof x === 'number'))
-      ).sort((a, b) => a - b);
-      this.lessonOptions = this.availableLessons.map((l) => ({ label: `Lezione ${l}`, value: l }));
-      if (this.availableLessons.length > 26) {
-        this.lessonOptions.unshift({ label: 'Lezioni 0-25', value: this.quickLessonRangeValue });
-      }
+      const availableLevels = Array.from(new Set(this.allItems.map((x) => x.livello)));
+      this.levelOptions = availableLevels.map((l) => ({ label: l, value: l }));
+
+      this.refreshLessonOptions();
       this.applyFilters();
       this.cd.detectChanges();
     } catch (e: any) {
@@ -94,10 +95,14 @@ export class KanjiQuizComponent implements OnInit {
     this.cd.detectChanges();
   }
 
+  onLevelsChange() {
+    this.refreshLessonOptions();
+    const validValues = new Set(this.lessonOptions.map((o) => o.value));
+    this.selectedLessons = this.selectedLessons.filter((v) => validValues.has(v));
+    this.applyFilters();
+  }
+
   onLessonsChange() {
-    if (this.selectedLessons.includes(this.quickLessonRangeValue)) {
-      this.selectedLessons = this.availableLessons.filter((lesson) => lesson >= 0 && lesson <= 25);
-    }
     this.applyFilters();
   }
 
@@ -105,15 +110,39 @@ export class KanjiQuizComponent implements OnInit {
     this.applyFilters();
   }
 
+  private lessonKey(item: KanjiItem): string {
+    return `${item.livello}|${item.lezione}`;
+  }
+
+  private levelFilteredItems(): KanjiItem[] {
+    return this.selectedLevels.length === 0
+      ? this.allItems
+      : this.allItems.filter((x) => this.selectedLevels.includes(x.livello));
+  }
+
+  private refreshLessonOptions() {
+    const pairs = Array.from(new Set(this.levelFilteredItems().map((x) => this.lessonKey(x))));
+    pairs.sort((a, b) => {
+      const [levelA, lessonA] = a.split('|');
+      const [levelB, lessonB] = b.split('|');
+      return levelA !== levelB ? levelA.localeCompare(levelB) : Number(lessonA) - Number(lessonB);
+    });
+    this.lessonOptions = pairs.map((key) => {
+      const [level, lesson] = key.split('|');
+      return { label: `${level} - Lezione ${lesson}`, value: key };
+    });
+  }
+
   applyFilters() {
+    const levelFiltered = this.levelFilteredItems();
     this.items =
       this.selectedLessons.length === 0
-        ? this.allItems
-        : this.allItems.filter((x) => this.selectedLessons.includes(x.lezione));
+        ? levelFiltered
+        : levelFiltered.filter((x) => this.selectedLessons.includes(this.lessonKey(x)));
     this.feedback = { status: 'idle' };
     this.recentIds = [];
     if (this.items.length === 0) {
-      this.errorMsg = 'Nessun kanji per le lezioni selezionate.';
+      this.errorMsg = 'Nessun kanji per i filtri selezionati.';
       this.question = null;
     } else {
       this.errorMsg = null;

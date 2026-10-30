@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { QuizQuestion, KanjiItem, KanjiEsempio } from './models';
+import { QuizQuestion, KanjiItem } from './models';
 
 function shuffle<T>(arr: T[]): T[] {
   const a = [...arr];
@@ -10,19 +10,22 @@ function shuffle<T>(arr: T[]): T[] {
   return a;
 }
 
-export type KanjiQuestionType = 'meaning' | 'on' | 'kun' | 'parole';
+export type KanjiQuestionType = 'meaning' | 'on' | 'kun' | 'flashcard';
 
 @Injectable({ providedIn: 'root' })
 export class QuizService {
-  private formatEsempio(esempio: KanjiEsempio): string {
-    return `${esempio.parola} (${esempio.lettura}) - ${esempio.significato}`;
+  private formatFlashcard(item: KanjiItem): string {
+    const parts = [item.significato.join(', ')];
+    if (item.lettura_on.length) parts.push(`on: ${item.lettura_on.join('/')}`);
+    if (item.lettura_kun.length) parts.push(`kun: ${item.lettura_kun.join('/')}`);
+    return parts.join(' — ');
   }
 
   buildNextKanjiQuestion(
     items: KanjiItem[],
     choicesCount = 4,
     excludeIds: string[] = [],
-    allowedTypes: KanjiQuestionType[] = ['meaning', 'kun', 'on', 'parole']
+    allowedTypes: KanjiQuestionType[] = ['meaning', 'kun', 'on', 'flashcard']
   ): QuizQuestion {
     if (items.length < choicesCount) {
       throw new Error(`Servono almeno ${choicesCount} kanji per fare multiple choice.`);
@@ -68,19 +71,13 @@ export class QuizService {
         validKinds.push('on');
       }
 
-      const paroleDistractors = shuffle(
-        items
-          .filter((x) => x.numero !== item.numero)
-          .flatMap((x) => x.esempi ?? [])
-          .map((esempio) => this.formatEsempio(esempio))
-      ).filter((m, idx, self) => self.indexOf(m) === idx);
+      const correctFlashcard = this.formatFlashcard(item);
+      const flashcardDistractors = shuffle(
+        items.filter((x) => x.numero !== item.numero).map((x) => this.formatFlashcard(x))
+      ).filter((m, idx, self) => self.indexOf(m) === idx && m !== correctFlashcard);
 
-      if (
-        allowedTypes.includes('parole') &&
-        (item.esempi?.length ?? 0) > 0 &&
-        paroleDistractors.length >= choicesCount - 1
-      ) {
-        validKinds.push('parole');
+      if (allowedTypes.includes('flashcard') && flashcardDistractors.length >= choicesCount - 1) {
+        validKinds.push('flashcard');
       }
 
       if (validKinds.length === 0) {
@@ -101,16 +98,14 @@ export class QuizService {
         };
       }
 
-      if (kind === 'parole') {
-        const esempio = item.esempi[Math.floor(Math.random() * item.esempi.length)];
-        const correct = this.formatEsempio(esempio);
-        const distractors = paroleDistractors.filter((m) => m !== correct).slice(0, choicesCount - 1);
-        const choices = shuffle([correct, ...distractors]);
+      if (kind === 'flashcard') {
+        const distractors = flashcardDistractors.slice(0, choicesCount - 1);
+        const choices = shuffle([correctFlashcard, ...distractors]);
         return {
           prompt: item.kanji,
-          reading: 'Scegli una parola che usa questo kanji',
+          reading: 'Scegli significato, on e kun corretti',
           choices,
-          correctIndex: choices.indexOf(correct),
+          correctIndex: choices.indexOf(correctFlashcard),
           itemId: String(item.numero),
         };
       }
@@ -131,6 +126,6 @@ export class QuizService {
       };
     }
 
-    throw new Error('Non ci sono abbastanza letture, significati o parole distinti per generare il quiz.');
+    throw new Error('Non ci sono abbastanza letture o significati distinti per generare il quiz.');
   }
 }

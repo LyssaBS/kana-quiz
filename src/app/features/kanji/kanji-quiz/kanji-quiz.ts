@@ -31,9 +31,9 @@ export class KanjiQuizComponent implements OnInit {
     { label: 'Significato', value: 'meaning' },
     { label: 'Lettura on', value: 'on' },
     { label: 'Lettura kun', value: 'kun' },
-    { label: 'Parole', value: 'parole' },
+    { label: 'Scheda completa', value: 'flashcard' },
   ];
-  selectedTypes: KanjiQuestionType[] = ['meaning', 'on', 'kun', 'parole'];
+  selectedTypes: KanjiQuestionType[] = ['meaning', 'on', 'kun', 'flashcard'];
 
   question: QuizQuestion | null = null;
   feedback: FeedbackState = { status: 'idle' };

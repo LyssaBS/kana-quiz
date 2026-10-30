@@ -1,6 +1,7 @@
 import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { ActivatedRoute, RouterLink } from '@angular/router';
 import { MultiSelect } from 'primeng/multiselect';
 import { DataService } from '../../../core/data.service';
 import { QuizService, KanjiQuestionType } from '../../../core/quiz.service';
@@ -11,13 +12,24 @@ type FeedbackState =
   | { status: 'correct'; chosenIndex: number }
   | { status: 'wrong'; chosenIndex: number; correctIndex: number };
 
+export type KanjiExerciseMode = 'quiz' | 'parola' | 'inverso';
+
+const TITLES: Record<KanjiExerciseMode, string> = {
+  quiz: 'Quiz Kanji',
+  parola: 'Completa la parola',
+  inverso: 'Significato → Kanji',
+};
+
 @Component({
   selector: 'app-kanji-quiz',
   standalone: true,
-  imports: [CommonModule, FormsModule, MultiSelect],
+  imports: [CommonModule, FormsModule, RouterLink, MultiSelect],
   templateUrl: './kanji-quiz.html',
 })
 export class KanjiQuizComponent implements OnInit {
+  mode: KanjiExerciseMode = 'quiz';
+  title = TITLES.quiz;
+
   items: KanjiItem[] = [];
   allItems: KanjiItem[] = [];
 
@@ -42,12 +54,19 @@ export class KanjiQuizComponent implements OnInit {
   errorMsg: string | null = null;
 
   constructor(
+    private route: ActivatedRoute,
     private data: DataService,
     private quiz: QuizService,
     private cd: ChangeDetectorRef
   ) {}
 
   async ngOnInit() {
+    const routeMode = this.route.snapshot.data['mode'];
+    if (routeMode === 'parola' || routeMode === 'inverso') {
+      this.mode = routeMode;
+    }
+    this.title = TITLES[this.mode];
+
     try {
       this.allItems = await this.data.loadKanji();
       if (!this.allItems || this.allItems.length === 0) {
@@ -73,7 +92,13 @@ export class KanjiQuizComponent implements OnInit {
   nextQuestion() {
     try {
       this.feedback = { status: 'idle' };
-      this.question = this.quiz.buildNextKanjiQuestion(this.items, 4, this.recentIds, this.selectedTypes);
+      if (this.mode === 'parola') {
+        this.question = this.quiz.buildNextWordFillQuestion(this.items, 4, this.recentIds);
+      } else if (this.mode === 'inverso') {
+        this.question = this.quiz.buildNextMeaningToKanjiQuestion(this.items, 4, this.recentIds);
+      } else {
+        this.question = this.quiz.buildNextKanjiQuestion(this.items, 4, this.recentIds, this.selectedTypes);
+      }
       if (this.question) {
         this.recentIds.push(this.question.itemId);
         if (this.recentIds.length > this.repeatBlockSpan) this.recentIds.shift();

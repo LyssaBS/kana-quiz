@@ -1,6 +1,8 @@
 <div style="max-width: 720px; margin: 24px auto; padding: 0 12px;">
-  <div style="display:flex; justify-content:center; align-items:center; gap: 12px;">
-    <h1 style="font-size: 22px; margin: 0;">Kanji Quiz</h1>
+  <div style="display:flex; justify-content:space-between; align-items:center; gap: 12px;">
+    <a routerLink="/">← Home</a>
+    <h1 style="font-size: 22px; margin: 0;">{{ title }}</h1>
+    <span style="width: 48px;"></span>
   </div>
 
   <hr />
@@ -27,6 +29,7 @@
       style="min-width: 240px;"
     ></p-multiSelect>
     <p-multiSelect
+      *ngIf="mode === 'quiz'"
       [options]="typeOptions"
       [(ngModel)]="selectedTypes"
       (onChange)="onTypesChange()"
@@ -44,7 +47,9 @@
 
   <ng-container *ngIf="question as q">
     <div style="margin: 18px 0; text-align: center;">
-      <div style="font-size: 52px; line-height: 1.1;">{{ q.prompt }}</div>
+      <div [style.font-size]="q.promptSize === 'md' ? '28px' : '52px'" style="line-height: 1.2;">
+        {{ q.prompt }}
+      </div>
       <div style="font-size: 18px; opacity: 0.75; margin-top: 6px;" *ngIf="q.reading">
         {{ q.reading }}
       </div>

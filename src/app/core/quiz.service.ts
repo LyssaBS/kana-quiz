@@ -128,4 +128,69 @@ export class QuizService {
 
     throw new Error('Non ci sono abbastanza letture o significati distinti per generare il quiz.');
   }
+
+  buildNextWordFillQuestion(items: KanjiItem[], choicesCount = 4, excludeIds: string[] = []): QuizQuestion {
+    const withExamples = items.filter((x) => (x.esempi?.length ?? 0) > 0);
+    if (withExamples.length < choicesCount) {
+      throw new Error(`Servono almeno ${choicesCount} kanji con esempi per fare multiple choice.`);
+    }
+
+    const pool = withExamples.filter((x) => !excludeIds.includes(String(x.numero)));
+    const pickFrom = pool.length > 0 ? pool : withExamples;
+
+    for (const item of shuffle(pickFrom)) {
+      const candidateEsempi = item.esempi.filter((e) => e.parola.includes(item.kanji));
+      if (candidateEsempi.length === 0) continue;
+
+      const distractorKanji = shuffle(
+        items.filter((x) => x.numero !== item.numero).map((x) => x.kanji)
+      ).filter((k, idx, self) => self.indexOf(k) === idx && k !== item.kanji);
+
+      if (distractorKanji.length < choicesCount - 1) continue;
+
+      const esempio = candidateEsempi[Math.floor(Math.random() * candidateEsempi.length)];
+      const masked = esempio.parola.split(item.kanji).join('◯');
+      const choices = shuffle([item.kanji, ...distractorKanji.slice(0, choicesCount - 1)]);
+
+      return {
+        prompt: masked,
+        reading: `Scegli il kanji mancante — ${esempio.significato} (${esempio.lettura})`,
+        choices,
+        correctIndex: choices.indexOf(item.kanji),
+        itemId: String(item.numero),
+      };
+    }
+
+    throw new Error('Non ci sono abbastanza esempi o kanji distinti per generare il quiz.');
+  }
+
+  buildNextMeaningToKanjiQuestion(items: KanjiItem[], choicesCount = 4, excludeIds: string[] = []): QuizQuestion {
+    if (items.length < choicesCount) {
+      throw new Error(`Servono almeno ${choicesCount} kanji per fare multiple choice.`);
+    }
+
+    const pool = items.filter((x) => !excludeIds.includes(String(x.numero)));
+    const pickFrom = pool.length > 0 ? pool : items;
+
+    for (const item of shuffle(pickFrom)) {
+      const distractorKanji = shuffle(
+        items.filter((x) => x.numero !== item.numero).map((x) => x.kanji)
+      ).filter((k, idx, self) => self.indexOf(k) === idx && k !== item.kanji);
+
+      if (distractorKanji.length < choicesCount - 1) continue;
+
+      const choices = shuffle([item.kanji, ...distractorKanji.slice(0, choicesCount - 1)]);
+
+      return {
+        prompt: item.significato.join(', '),
+        promptSize: 'md',
+        reading: 'Scegli il kanji corrispondente',
+        choices,
+        correctIndex: choices.indexOf(item.kanji),
+        itemId: String(item.numero),
+      };
+    }
+
+    throw new Error('Non ci sono abbastanza kanji distinti per generare il quiz.');
+  }
 }

@@ -1,5 +1,6 @@
 export interface QuizQuestion {
   prompt: string;       // es: 学校
+  promptSize?: 'lg' | 'md'; // 'lg' (default) per kanji/parole, 'md' per testo più lungo
   reading?: string;     // es: がっこう
   choices: string[];    // 4 opzioni IT
   correctIndex: number; // indice in choices
